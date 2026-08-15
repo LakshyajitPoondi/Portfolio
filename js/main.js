@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const footerElement = document.querySelector('.footer');
       if (footerRevealWrapper && footerElement) {
         gsap.fromTo(footerElement,
-          { yPercent: -50 },
+          { yPercent: -100 },
           {
             yPercent: 0,
             ease: "none",
