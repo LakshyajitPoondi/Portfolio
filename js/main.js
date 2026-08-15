@@ -111,3 +111,33 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Mobile Navigation Toggle
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
+  
+  if (mobileMenuBtn && mobileNavOverlay) {
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenuBtn.classList.toggle('active');
+      mobileNavOverlay.classList.toggle('active');
+      document.body.style.overflow = mobileNavOverlay.classList.contains('active') ? 'hidden' : '';
+    });
+  }
+
+  // Photography Gallery Shuffle
+  // Check if we are on the gallery page with .gallery-grid
+  const galleryGrid = document.querySelector('.gallery-grid');
+  if (galleryGrid) {
+    const items = Array.from(galleryGrid.querySelectorAll('.gallery-item'));
+    if (items.length > 0) {
+      // Fisher-Yates shuffle
+      for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+      }
+      // Re-append items in shuffled order
+      items.forEach(item => galleryGrid.appendChild(item));
+    }
+  }
+});
