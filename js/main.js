@@ -108,6 +108,25 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         );
       }
+
+      // Footer Reveal Animation (Parallax)
+      const footerRevealWrapper = document.querySelector('.footer-reveal-wrapper');
+      const footerElement = document.querySelector('.footer');
+      if (footerRevealWrapper && footerElement) {
+        gsap.fromTo(footerElement,
+          { yPercent: -50 },
+          {
+            yPercent: 0,
+            ease: "none",
+            scrollTrigger: {
+              trigger: footerRevealWrapper,
+              start: "top bottom",
+              end: "bottom bottom",
+              scrub: true
+            }
+          }
+        );
+      }
     }
   }
 });
@@ -126,18 +145,56 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Photography Gallery Shuffle
-  // Check if we are on the gallery page with .gallery-grid
   const galleryGrid = document.querySelector('.gallery-grid');
   if (galleryGrid) {
     const items = Array.from(galleryGrid.querySelectorAll('.gallery-item'));
     if (items.length > 0) {
-      // Fisher-Yates shuffle
+      // 1. Visual Shuffle (in-memory)
       for (let i = items.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [items[i], items[j]] = [items[j], items[i]];
       }
-      // Re-append items in shuffled order
-      items.forEach(item => galleryGrid.appendChild(item));
+      // Single DOM operation
+      const fragment = document.createDocumentFragment();
+      items.forEach(item => fragment.appendChild(item));
+      galleryGrid.appendChild(fragment);
     }
+  }
+
+  // Progressive Interleaved Loading for all lazy images
+  const images = Array.from(document.querySelectorAll('img[data-src]'));
+  if (images.length > 0) {
+    const observer = new IntersectionObserver((entries) => {
+      const visibleImages = entries
+        .filter(entry => entry.isIntersecting)
+        .map(entry => entry.target);
+        
+      if (visibleImages.length === 0) return;
+      
+      // Group by priority
+      const queues = { high: [], medium: [], low: [] };
+      visibleImages.forEach(img => {
+        const priority = img.dataset.priority || 'medium';
+        if (queues[priority]) queues[priority].push(img);
+        observer.unobserve(img);
+      });
+      
+      // Interleaved ratio: 2 high, 1 medium, 1 low
+      const loadQueue = [];
+      while (queues.high.length > 0 || queues.medium.length > 0 || queues.low.length > 0) {
+        if (queues.high.length > 0) loadQueue.push(queues.high.shift());
+        if (queues.high.length > 0) loadQueue.push(queues.high.shift());
+        if (queues.medium.length > 0) loadQueue.push(queues.medium.shift());
+        if (queues.low.length > 0) loadQueue.push(queues.low.shift());
+      }
+      
+      // Load sequence
+      loadQueue.forEach(img => {
+        img.onload = () => img.classList.add('loaded');
+        img.src = img.dataset.src;
+      });
+    }, { rootMargin: "300px" });
+    
+    images.forEach(img => observer.observe(img));
   }
 });
