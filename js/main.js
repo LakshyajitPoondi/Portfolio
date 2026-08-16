@@ -27,35 +27,43 @@ document.addEventListener('DOMContentLoaded', () => {
   setInterval(updateTime, 1000);
   updateTime();
 
-  // Header Scroll Effect
+  // Header Scroll Effect — optimized with requestAnimationFrame
   const header = document.getElementById('main-header');
   let lastScrollY = window.scrollY;
+  let ticking = false;
+  // Cache hero reference and its scroll distance once
+  const hero = document.querySelector('.hero');
+  let heroScrollDistance = hero ? hero.offsetHeight * 2 : 0;
+  // Track previous states to avoid redundant DOM writes
+  let wasSolid = false;
+  let wasHidden = false;
   
   if (header) {
     window.addEventListener('scroll', () => {
-      const currentScrollY = window.scrollY;
-      const hero = document.querySelector('.hero');
-      // The hero is pinned for an extra 100% of its height, so total distance is height * 2
-      const heroScrollDistance = hero ? hero.offsetHeight * 2 : 0;
-      
-      // Toggle solid background if hero exists, but ONLY after the pinned hero animation finishes
-      if (hero) {
-        if (currentScrollY > heroScrollDistance - 100) {
-          header.classList.add('solid');
-        } else {
-          header.classList.remove('solid');
-        }
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          const currentScrollY = window.scrollY;
+          
+          if (hero) {
+            const shouldBeSolid = currentScrollY > heroScrollDistance - 100;
+            if (shouldBeSolid !== wasSolid) {
+              header.classList.toggle('solid', shouldBeSolid);
+              wasSolid = shouldBeSolid;
+            }
+          }
+          
+          const shouldHide = currentScrollY > lastScrollY && currentScrollY > Math.max(80, heroScrollDistance);
+          if (shouldHide !== wasHidden) {
+            header.style.transform = shouldHide ? 'translateY(-100%)' : 'translateY(0)';
+            wasHidden = shouldHide;
+          }
+          
+          lastScrollY = currentScrollY;
+          ticking = false;
+        });
+        ticking = true;
       }
-      
-      // Hide on scroll down, show on scroll up, BUT keep visible throughout the entire cinematic hero
-      if (currentScrollY > lastScrollY && currentScrollY > Math.max(80, heroScrollDistance)) {
-        header.style.transform = 'translateY(-100%)';
-      } else {
-        header.style.transform = 'translateY(0)';
-      }
-      
-      lastScrollY = currentScrollY;
-    });
+    }, { passive: true });
   }
 
   // GSAP ScrollTrigger Animations
@@ -129,9 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
   }
-});
 
-document.addEventListener('DOMContentLoaded', () => {
   // Mobile Navigation Toggle
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
   const mobileNavOverlay = document.querySelector('.mobile-nav-overlay');
@@ -144,57 +150,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Photography Gallery Shuffle
-  const galleryGrid = document.querySelector('.gallery-grid');
-  if (galleryGrid) {
-    const items = Array.from(galleryGrid.querySelectorAll('.gallery-item'));
-    if (items.length > 0) {
-      // 1. Visual Shuffle (in-memory)
-      for (let i = items.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [items[i], items[j]] = [items[j], items[i]];
+  // Image reveal animation — lightweight, uses native loading
+  const galleryImages = document.querySelectorAll('.gallery-item img');
+  if (galleryImages.length > 0) {
+    galleryImages.forEach(img => {
+      if (img.complete) {
+        img.classList.add('loaded');
+      } else {
+        img.addEventListener('load', () => img.classList.add('loaded'), { once: true });
       }
-      // Single DOM operation
-      const fragment = document.createDocumentFragment();
-      items.forEach(item => fragment.appendChild(item));
-      galleryGrid.appendChild(fragment);
-    }
-  }
-
-  // Progressive Interleaved Loading for all lazy images
-  const images = Array.from(document.querySelectorAll('img[data-src]'));
-  if (images.length > 0) {
-    const observer = new IntersectionObserver((entries) => {
-      const visibleImages = entries
-        .filter(entry => entry.isIntersecting)
-        .map(entry => entry.target);
-        
-      if (visibleImages.length === 0) return;
-      
-      // Group by priority
-      const queues = { high: [], medium: [], low: [] };
-      visibleImages.forEach(img => {
-        const priority = img.dataset.priority || 'medium';
-        if (queues[priority]) queues[priority].push(img);
-        observer.unobserve(img);
-      });
-      
-      // Interleaved ratio: 2 high, 1 medium, 1 low
-      const loadQueue = [];
-      while (queues.high.length > 0 || queues.medium.length > 0 || queues.low.length > 0) {
-        if (queues.high.length > 0) loadQueue.push(queues.high.shift());
-        if (queues.high.length > 0) loadQueue.push(queues.high.shift());
-        if (queues.medium.length > 0) loadQueue.push(queues.medium.shift());
-        if (queues.low.length > 0) loadQueue.push(queues.low.shift());
-      }
-      
-      // Load sequence
-      loadQueue.forEach(img => {
-        img.onload = () => img.classList.add('loaded');
-        img.src = img.dataset.src;
-      });
-    }, { rootMargin: "300px" });
-    
-    images.forEach(img => observer.observe(img));
+    });
   }
 });

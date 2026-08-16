@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lakshyajit Photography | Portfolio</title>
   <meta name="description" content="Personal photography portfolio by Lakshyajit Photography.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 
@@ -104,7 +108,10 @@
       </div>
     </div>
     <div class="about-image-wrapper">
-      <img src="assets/about_portrait.jpg" alt="Portrait of Lakshyajit Photography">
+      <picture>
+        <source type="image/webp" srcset="assets/about_portrait_800w.webp 800w, assets/about_portrait_1200w.webp 1200w" sizes="(max-width: 768px) 100vw, 50vw">
+        <img src="assets/about_portrait.jpg" alt="Portrait of Lakshyajit Photography" loading="lazy" decoding="async">
+      </picture>
       <a href="https://www.instagram.com/lxy_visuals/" target="_blank" class="about-image-icon" aria-label="Instagram" style="color: inherit;">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
       </a>
