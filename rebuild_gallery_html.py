@@ -8,6 +8,7 @@ Rebuild gallery HTML files to use:
 import os
 import re
 import urllib.parse
+from PIL import Image
 
 # Configuration
 ABOVE_FOLD_COUNT = 6  # First N images get high priority, no lazy loading
@@ -50,13 +51,23 @@ def get_picture_element(folder, filename, index, alt_text):
         priority_attr = ''
         decoding_attr = ' decoding="async"'
     
+    # Extract original image dimensions using PIL
+    img_path = os.path.join(folder, filename)
+    try:
+        with Image.open(img_path) as im:
+            width, height = im.size
+        dimensions_attr = f' width="{width}" height="{height}"'
+    except Exception as e:
+        print(f"Warning: Could not read dimensions for {img_path}: {e}")
+        dimensions_attr = ''
+
     # Build the picture element
     lines = []
     lines.append('      <picture>')
     if webp_srcset:
         lines.append(f'        <source type="image/webp" srcset="{webp_srcset}" sizes="{sizes}">')
     encoded_src = urllib.parse.quote(f"{folder}/{filename}")
-    lines.append(f'        <img src="{encoded_src}" alt="{alt_text}"{loading_attr}{decoding_attr}{priority_attr}>')
+    lines.append(f'        <img src="{encoded_src}" alt="{alt_text}"{dimensions_attr}{loading_attr}{decoding_attr}{priority_attr}>')
     lines.append('      </picture>')
     
     return '\n'.join(lines)
