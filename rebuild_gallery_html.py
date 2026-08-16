@@ -16,7 +16,7 @@ SIZES = [800, 1200, 1600]
 
 # Map of gallery HTML file -> image folder
 GALLERIES = {
-    'gallery.html': 'assets/gallery',
+    'gallery.html': 'assets/Gallery',
     'animals.html': 'assets/animals',
     'cars.html': 'assets/cars',
 }
@@ -124,7 +124,7 @@ def rebuild_gallery(html_file, img_folder):
 def rebuild_portraits():
     """Rebuild portraits.html using the same approach."""
     html_file = 'portraits.html'
-    img_folder = 'assets/portraits'
+    img_folder = 'assets/Portraits'
     
     if not os.path.exists(html_file):
         print(f"  SKIP: {html_file} does not exist")
