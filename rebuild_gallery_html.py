@@ -7,6 +7,7 @@ Rebuild gallery HTML files to use:
 """
 import os
 import re
+import urllib.parse
 
 # Configuration
 ABOVE_FOLD_COUNT = 6  # First N images get high priority, no lazy loading
@@ -31,7 +32,8 @@ def get_picture_element(folder, filename, index, alt_text):
     for w in SIZES:
         webp_file = f"{opt_dir}/{base_name}_{w}w.webp"
         if os.path.exists(webp_file):
-            webp_srcset_parts.append(f"{opt_dir}/{base_name}_{w}w.webp {w}w")
+            encoded_url = urllib.parse.quote(f"{opt_dir}/{base_name}_{w}w.webp")
+            webp_srcset_parts.append(f"{encoded_url} {w}w")
     
     webp_srcset = ', '.join(webp_srcset_parts)
     
@@ -53,7 +55,8 @@ def get_picture_element(folder, filename, index, alt_text):
     lines.append('      <picture>')
     if webp_srcset:
         lines.append(f'        <source type="image/webp" srcset="{webp_srcset}" sizes="{sizes}">')
-    lines.append(f'        <img src="{folder}/{filename}" alt="{alt_text}"{loading_attr}{decoding_attr}{priority_attr}>')
+    encoded_src = urllib.parse.quote(f"{folder}/{filename}")
+    lines.append(f'        <img src="{encoded_src}" alt="{alt_text}"{loading_attr}{decoding_attr}{priority_attr}>')
     lines.append('      </picture>')
     
     return '\n'.join(lines)
