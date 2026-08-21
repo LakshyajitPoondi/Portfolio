@@ -663,7 +663,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   width: 100%;
   break-inside: avoid;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .gallery-item img {
@@ -693,16 +693,21 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 1024px) {
   .portraits-grid {
     column-count: 3;
+    padding: 0 1rem 4rem 1rem;
   }
 }
 @media (max-width: 768px) {
   .portraits-grid {
     column-count: 2;
+    column-gap: 0.75rem;
+    padding: 0 0.75rem 3rem 0.75rem;
   }
 }
 @media (max-width: 480px) {
   .portraits-grid {
     column-count: 1;
+    column-gap: 0.5rem;
+    padding: 0 0.5rem 2rem 0.5rem;
   }
 }
 
@@ -782,6 +787,9 @@ h1, h2, h3, h4, h5, h6 {
     column-gap: 0.75rem;
     padding: 0 0.75rem 3rem 0.75rem;
   }
+  .gallery-item {
+    margin-bottom: 0.75rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -789,6 +797,9 @@ h1, h2, h3, h4, h5, h6 {
     column-count: 2;
     column-gap: 0.5rem;
     padding: 0 0.5rem 2rem 0.5rem;
+  }
+  .gallery-item {
+    margin-bottom: 0.5rem;
   }
 }
 
