@@ -11,5 +11,5 @@
  * 
  * NEVER put your service_role key or database password in this file.
  */
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_KEY = 'YOUR_SUPABASE_PUBLISHABLE_KEY';
+const SUPABASE_URL = 'https://haagjnjmtfihuczfsnqc.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhhYWdqbmptdGZpaHVjemZzbnFjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY3OTc0NDksImV4cCI6MjEwMjM3MzQ0OX0.WdVkXXHpMh08yfN2-NrEfQuzm3EyIi4I9txr0JXTDFM';

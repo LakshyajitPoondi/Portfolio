@@ -234,17 +234,20 @@
 
   // ── Initialization (on DOMContentLoaded) ───────────────────────────────────
 
-  document.addEventListener('DOMContentLoaded', () => {
-
+  function initSupabaseForms() {
     // Attach newsletter handlers to ALL newsletter forms (present in every page footer)
     const newsletterForms = document.querySelectorAll('.newsletter-form');
     newsletterForms.forEach(form => {
       form.addEventListener('submit', handleNewsletterSubmit);
     });
 
-    // index.html contact form — uses id-based selectors
-    const indexContactForm = document.getElementById('index-contact-form');
+    // index.html contact form — fallback to generic selector if ID is missing on the deployed site
+    const indexContactForm = document.getElementById('index-contact-form') || document.querySelector('.contact-form-container form');
     if (indexContactForm) {
+      // Remove native POST attributes dynamically if they exist on the deployed site
+      indexContactForm.removeAttribute('method');
+      indexContactForm.removeAttribute('action');
+
       indexContactForm.addEventListener('submit', createContactHandler({
         firstName: '#first-name',
         lastName: '#last-name',
@@ -267,6 +270,11 @@
         newsletter: '#newsletter',
       }));
     }
-  });
+  }
 
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSupabaseForms);
+  } else {
+    initSupabaseForms();
+  }
 })();
