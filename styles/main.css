@@ -39,7 +39,7 @@ html {
 body {
   font-family: var(--font-primary);
   color: var(--color-text-dark);
-  background-color: var(--color-off-white);
+  background-color: transparent;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -946,14 +946,12 @@ h1, h2, h3, h4, h5, h6 {
 .main-content-wrapper {
   position: relative;
   z-index: 2;
-  background-color: var(--color-white);
-}
-.footer-reveal-wrapper {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+  background-color: var(--color-off-white);
 }
 .footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
   background-color: #000000;
   color: var(--color-white);
   padding: 4rem;
@@ -1177,4 +1175,103 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
+}
+
+/* Fullscreen Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.92);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.lightbox-img-wrapper {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.96);
+  transition: transform 0.25s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.lightbox.active .lightbox-img-wrapper {
+  transform: scale(1);
+}
+
+.lightbox-img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  user-select: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.lightbox-img.active {
+  opacity: 1;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: #1a1a1a;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox-close:hover, .lightbox-nav:hover {
+  opacity: 0.6;
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #1a1a1a;
+  cursor: pointer;
+  z-index: 10000;
+  padding: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.lightbox-prev {
+  left: 2rem;
+}
+
+.lightbox-next {
+  right: 2rem;
+}
+
+.lightbox-nav:disabled, .lightbox-nav.hidden {
+  opacity: 0 !important;
+  pointer-events: none;
+}
+
+body.no-scroll {
+  overflow: hidden !important;
 }
