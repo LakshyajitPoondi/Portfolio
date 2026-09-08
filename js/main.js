@@ -38,22 +38,6 @@ function updateClock() {
 updateClock();
 setInterval(updateClock, 60000);
 
-// Left-to-right clip-path wipe on major headings. The hidden state is scoped to .js
-// so headings stay visible without JavaScript, and the wipe is skipped outright when
-// the visitor asks for reduced motion.
-const reveals = document.querySelectorAll('.reveal');
-if (reveals.length) {
-  const show = element => element.classList.add('is-revealed');
-  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    reveals.forEach(show);
-  } else {
-    const observer = new IntersectionObserver((entries, self) => {
-      for (const entry of entries) if (entry.isIntersecting) { show(entry.target); self.unobserve(entry.target); }
-    }, {threshold:0.2, rootMargin:'0px 0px -8% 0px'});
-    reveals.forEach(element => observer.observe(element));
-  }
-}
-
 document.querySelectorAll('.photo-link img').forEach(img => {
   const failed = () => img.closest('.photo-link').classList.add('image-error');
   img.addEventListener('error', failed);
@@ -81,7 +65,8 @@ if (dialog && typeof dialog.showModal === 'function') {
     stage.querySelector('img')?.remove();
     status.hidden = false;
     status.textContent = 'Loading photograph…';
-    caption.textContent = thumbnail.alt;
+    // The visible caption is archive metadata; the descriptive alt stays on the image itself.
+    caption.textContent = source.dataset.frame || '';
     count.textContent = 'FRAME ' + String(index + 1).padStart(2,'0') + ' / ' + String(items.length).padStart(2,'0');
     previous.disabled = index === 0;
     next.disabled = index === items.length - 1;
@@ -125,6 +110,10 @@ if (dialog && typeof dialog.showModal === 'function') {
   previous.addEventListener('click', () => move(-1));
   next.addEventListener('click', () => move(1));
   document.querySelector('#lightbox-close').addEventListener('click', () => dialog.close());
+  // Clicking the surround — the backdrop or the space beside the photograph — returns to the grid.
+  dialog.addEventListener('click', event => {
+    if (!event.target.closest('button, img, #lightbox-caption, #lightbox-count')) dialog.close();
+  });
   dialog.addEventListener('keydown', event => {
     if (event.key === 'Tab') {
       const controls = [...dialog.querySelectorAll('button:not(:disabled), a[href]')].filter(el => !el.hidden);
