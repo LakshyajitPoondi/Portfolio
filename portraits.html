@@ -1,462 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="top">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
   <title>Portraits | LXY Visuals</title>
-  <meta name="description" content="Portrait photography portfolio of LXY Visuals.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <meta name="description" content="Faces, gestures, and the quiet space between poses. A collection of portraits made with friends and people in front of my lens.">
+  <link rel="canonical" href="https://lakshyajitphotography.vercel.app/portraits.html">
   <link rel="stylesheet" href="styles/main.css">
+  <script src="js/main.js" defer></script>
 </head>
-<body>
-
-  <!-- Header Background for Difference Blending -->
-  <div style="position: fixed; top: 0; left: 0; width: 100%; height: var(--header-height); background-color: var(--color-off-white); z-index: 101; pointer-events: none;"></div>
-  <!-- Header -->
-  <header class="header" id="main-header">
-    <a href="index.html" class="logo"><span class="logo-small">VISUALS BY</span><br>LAKSHYAJIT</a>
-    <nav class="nav">
-      <a href="index.html" class="nav-link">Home</a>
-      <div class="nav-item-dropdown">
-        <a href="gallery.html" class="nav-link">Photography Gallery</a>
-        <div class="dropdown-menu">
-          <a href="animals.html" class="dropdown-link">Wildlife</a>
-          <a href="cars.html" class="dropdown-link">Cars</a>
-        </div>
-      </div>
-      <a href="portraits.html" class="nav-link active">Portraits</a>
-      <a href="contact.html" class="nav-link">Contact</a>
-    </nav>
-    <button class="mobile-menu-btn" aria-label="Toggle menu">
-      <span class="hamburger-line"></span>
-      <span class="hamburger-line"></span>
-    </button>
-  </header>
-  <main class="main-content-wrapper">
-
-  <!-- Mobile Navigation Overlay -->
-  <div class="mobile-nav-overlay" id="mobile-nav">
-    <div class="mobile-nav-content">
-      <a href="index.html" class="title-md mobile-nav-link">Home</a>
-      <a href="gallery.html" class="title-md mobile-nav-link">Photography Gallery</a>
-      <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: -1.5rem;">
-        <a href="gallery.html" class="title-md mobile-nav-link" style="font-size: 1.5rem !important; text-transform: uppercase;">Gallery</a>
-        <a href="animals.html" class="title-md mobile-nav-link" style="font-size: 1.5rem !important; text-transform: uppercase;">Wildlife</a>
-        <a href="cars.html" class="title-md mobile-nav-link" style="font-size: 1.5rem !important; text-transform: uppercase;">Cars</a>
-      </div>
-      <a href="portraits.html" class="title-md mobile-nav-link">Portraits</a>
-      <a href="contact.html" class="title-md mobile-nav-link">Contact</a>
-    </div>
-  </div>
-
-  <!-- Gallery Header Section -->
-  <section class="gallery-header-section">
-    <h1 class="title-xl">Portraits</h1>
-  </section>
-
-  <!-- Portraits Grid (Editorial Layout) -->
-  <section class="portraits-grid" id="portraits-container">
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_001_800w.webp 800w, assets/Portraits/optimized/portraits_001_1200w.webp 1200w, assets/Portraits/optimized/portraits_001_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_001.jpg" alt="Portrait 1" width="1080" height="1440" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_002_800w.webp 800w, assets/Portraits/optimized/portraits_002_1200w.webp 1200w, assets/Portraits/optimized/portraits_002_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_002.jpg" alt="Portrait 2" width="3648" height="5472" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_003_800w.webp 800w, assets/Portraits/optimized/portraits_003_1200w.webp 1200w, assets/Portraits/optimized/portraits_003_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_003.jpg" alt="Portrait 3" width="5472" height="3648" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_004_800w.webp 800w, assets/Portraits/optimized/portraits_004_1200w.webp 1200w, assets/Portraits/optimized/portraits_004_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_004.jpg" alt="Portrait 4" width="3648" height="5472" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_005_800w.webp 800w, assets/Portraits/optimized/portraits_005_1200w.webp 1200w, assets/Portraits/optimized/portraits_005_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_005.jpg" alt="Portrait 5" width="3648" height="5472" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_006_800w.webp 800w, assets/Portraits/optimized/portraits_006_1200w.webp 1200w, assets/Portraits/optimized/portraits_006_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_006.jpg" alt="Portrait 6" width="3648" height="5472" decoding="async" fetchpriority="high">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_007_800w.webp 800w, assets/Portraits/optimized/portraits_007_1200w.webp 1200w, assets/Portraits/optimized/portraits_007_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_007.jpg" alt="Portrait 7" width="3275" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_008_800w.webp 800w, assets/Portraits/optimized/portraits_008_1200w.webp 1200w, assets/Portraits/optimized/portraits_008_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_008.jpg" alt="Portrait 8" width="5389" height="3571" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_009_800w.webp 800w, assets/Portraits/optimized/portraits_009_1200w.webp 1200w, assets/Portraits/optimized/portraits_009_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_009.jpg" alt="Portrait 9" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_010_800w.webp 800w, assets/Portraits/optimized/portraits_010_1200w.webp 1200w, assets/Portraits/optimized/portraits_010_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_010.jpg" alt="Portrait 10" width="4000" height="6000" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_011_800w.webp 800w, assets/Portraits/optimized/portraits_011_1200w.webp 1200w, assets/Portraits/optimized/portraits_011_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_011.jpg" alt="Portrait 11" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_012_800w.webp 800w, assets/Portraits/optimized/portraits_012_1200w.webp 1200w, assets/Portraits/optimized/portraits_012_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_012.jpg" alt="Portrait 12" width="10944" height="7296" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_013_800w.webp 800w, assets/Portraits/optimized/portraits_013_1200w.webp 1200w, assets/Portraits/optimized/portraits_013_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_013.jpg" alt="Portrait 13" width="3937" height="6000" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_014_800w.webp 800w, assets/Portraits/optimized/portraits_014_1200w.webp 1200w, assets/Portraits/optimized/portraits_014_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_014.jpg" alt="Portrait 14" width="1365" height="2048" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_015_800w.webp 800w, assets/Portraits/optimized/portraits_015_1200w.webp 1200w, assets/Portraits/optimized/portraits_015_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_015.jpg" alt="Portrait 15" width="3247" height="4871" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_016_800w.webp 800w, assets/Portraits/optimized/portraits_016_1200w.webp 1200w, assets/Portraits/optimized/portraits_016_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_016.jpg" alt="Portrait 16" width="5472" height="3387" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_017_800w.webp 800w, assets/Portraits/optimized/portraits_017_1200w.webp 1200w, assets/Portraits/optimized/portraits_017_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_017.jpg" alt="Portrait 17" width="682" height="1024" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_018_800w.webp 800w, assets/Portraits/optimized/portraits_018_1200w.webp 1200w, assets/Portraits/optimized/portraits_018_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_018.jpg" alt="Portrait 18" width="10944" height="7296" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_019_800w.webp 800w, assets/Portraits/optimized/portraits_019_1200w.webp 1200w, assets/Portraits/optimized/portraits_019_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_019.jpg" alt="Portrait 19" width="1365" height="2048" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_020_800w.webp 800w, assets/Portraits/optimized/portraits_020_1200w.webp 1200w, assets/Portraits/optimized/portraits_020_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_020.jpg" alt="Portrait 20" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_021_800w.webp 800w, assets/Portraits/optimized/portraits_021_1200w.webp 1200w, assets/Portraits/optimized/portraits_021_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_021.jpg" alt="Portrait 21" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_022_800w.webp 800w, assets/Portraits/optimized/portraits_022_1200w.webp 1200w, assets/Portraits/optimized/portraits_022_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_022.jpg" alt="Portrait 22" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_023_800w.webp 800w, assets/Portraits/optimized/portraits_023_1200w.webp 1200w, assets/Portraits/optimized/portraits_023_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_023.jpg" alt="Portrait 23" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_024_800w.webp 800w, assets/Portraits/optimized/portraits_024_1200w.webp 1200w, assets/Portraits/optimized/portraits_024_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_024.jpg" alt="Portrait 24" width="10532" height="7296" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_025_800w.webp 800w, assets/Portraits/optimized/portraits_025_1200w.webp 1200w, assets/Portraits/optimized/portraits_025_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_025.jpg" alt="Portrait 25" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_026_800w.webp 800w, assets/Portraits/optimized/portraits_026_1200w.webp 1200w, assets/Portraits/optimized/portraits_026_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_026.jpg" alt="Portrait 26" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_027_800w.webp 800w, assets/Portraits/optimized/portraits_027_1200w.webp 1200w, assets/Portraits/optimized/portraits_027_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_027.jpg" alt="Portrait 27" width="1365" height="2048" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_028_800w.webp 800w, assets/Portraits/optimized/portraits_028_1200w.webp 1200w, assets/Portraits/optimized/portraits_028_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_028.jpg" alt="Portrait 28" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_029_800w.webp 800w, assets/Portraits/optimized/portraits_029_1200w.webp 1200w, assets/Portraits/optimized/portraits_029_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_029.jpg" alt="Portrait 29" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_030_800w.webp 800w, assets/Portraits/optimized/portraits_030_1200w.webp 1200w, assets/Portraits/optimized/portraits_030_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_030.jpg" alt="Portrait 30" width="2160" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_031_800w.webp 800w, assets/Portraits/optimized/portraits_031_1200w.webp 1200w, assets/Portraits/optimized/portraits_031_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_031.jpg" alt="Portrait 31" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_032_800w.webp 800w, assets/Portraits/optimized/portraits_032_1200w.webp 1200w, assets/Portraits/optimized/portraits_032_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_032.jpg" alt="Portrait 32" width="2160" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_033_800w.webp 800w, assets/Portraits/optimized/portraits_033_1200w.webp 1200w, assets/Portraits/optimized/portraits_033_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_033.jpg" alt="Portrait 33" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_034_800w.webp 800w, assets/Portraits/optimized/portraits_034_1200w.webp 1200w, assets/Portraits/optimized/portraits_034_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_034.jpg" alt="Portrait 34" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_035_800w.webp 800w, assets/Portraits/optimized/portraits_035_1200w.webp 1200w, assets/Portraits/optimized/portraits_035_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_035.jpg" alt="Portrait 35" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_036_800w.webp 800w, assets/Portraits/optimized/portraits_036_1200w.webp 1200w, assets/Portraits/optimized/portraits_036_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_036.jpg" alt="Portrait 36" width="1080" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_037_800w.webp 800w, assets/Portraits/optimized/portraits_037_1200w.webp 1200w, assets/Portraits/optimized/portraits_037_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_037.jpg" alt="Portrait 37" width="3648" height="5049" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_038_800w.webp 800w, assets/Portraits/optimized/portraits_038_1200w.webp 1200w, assets/Portraits/optimized/portraits_038_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_038.jpg" alt="Portrait 38" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_039_800w.webp 800w, assets/Portraits/optimized/portraits_039_1200w.webp 1200w, assets/Portraits/optimized/portraits_039_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_039.jpg" alt="Portrait 39" width="5268" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_040_800w.webp 800w, assets/Portraits/optimized/portraits_040_1200w.webp 1200w, assets/Portraits/optimized/portraits_040_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_040.jpg" alt="Portrait 40" width="3041" height="5228" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_041_800w.webp 800w, assets/Portraits/optimized/portraits_041_1200w.webp 1200w, assets/Portraits/optimized/portraits_041_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_041.jpg" alt="Portrait 41" width="5472" height="3387" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_042_800w.webp 800w, assets/Portraits/optimized/portraits_042_1200w.webp 1200w, assets/Portraits/optimized/portraits_042_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_042.jpg" alt="Portrait 42" width="960" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_043_800w.webp 800w, assets/Portraits/optimized/portraits_043_1200w.webp 1200w, assets/Portraits/optimized/portraits_043_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_043.jpg" alt="Portrait 43" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_044_800w.webp 800w, assets/Portraits/optimized/portraits_044_1200w.webp 1200w, assets/Portraits/optimized/portraits_044_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_044.jpg" alt="Portrait 44" width="1080" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_045_800w.webp 800w, assets/Portraits/optimized/portraits_045_1200w.webp 1200w, assets/Portraits/optimized/portraits_045_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_045.jpg" alt="Portrait 45" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_046_800w.webp 800w, assets/Portraits/optimized/portraits_046_1200w.webp 1200w, assets/Portraits/optimized/portraits_046_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_046.jpg" alt="Portrait 46" width="1080" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_047_800w.webp 800w, assets/Portraits/optimized/portraits_047_1200w.webp 1200w, assets/Portraits/optimized/portraits_047_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_047.jpg" alt="Portrait 47" width="3585" height="5378" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_048_800w.webp 800w, assets/Portraits/optimized/portraits_048_1200w.webp 1200w, assets/Portraits/optimized/portraits_048_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_048.jpg" alt="Portrait 48" width="1080" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_049_800w.webp 800w, assets/Portraits/optimized/portraits_049_1200w.webp 1200w, assets/Portraits/optimized/portraits_049_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_049.jpg" alt="Portrait 49" width="4000" height="6000" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_050_800w.webp 800w, assets/Portraits/optimized/portraits_050_1200w.webp 1200w, assets/Portraits/optimized/portraits_050_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_050.jpg" alt="Portrait 50" width="10944" height="7296" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_051_800w.webp 800w, assets/Portraits/optimized/portraits_051_1200w.webp 1200w, assets/Portraits/optimized/portraits_051_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_051.jpg" alt="Portrait 51" width="3127" height="4690" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_052_800w.webp 800w, assets/Portraits/optimized/portraits_052_1200w.webp 1200w, assets/Portraits/optimized/portraits_052_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_052.jpg" alt="Portrait 52" width="1080" height="1440" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_053_800w.webp 800w, assets/Portraits/optimized/portraits_053_1200w.webp 1200w, assets/Portraits/optimized/portraits_053_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_053.jpg" alt="Portrait 53" width="4000" height="6000" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_054_800w.webp 800w, assets/Portraits/optimized/portraits_054_1200w.webp 1200w, assets/Portraits/optimized/portraits_054_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_054.jpg" alt="Portrait 54" width="5472" height="3648" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_055_800w.webp 800w, assets/Portraits/optimized/portraits_055_1200w.webp 1200w, assets/Portraits/optimized/portraits_055_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_055.jpg" alt="Portrait 55" width="1365" height="2048" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_056_800w.webp 800w, assets/Portraits/optimized/portraits_056_1200w.webp 1200w, assets/Portraits/optimized/portraits_056_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_056.jpg" alt="Portrait 56" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_057_800w.webp 800w, assets/Portraits/optimized/portraits_057_1200w.webp 1200w, assets/Portraits/optimized/portraits_057_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_057.jpg" alt="Portrait 57" width="4000" height="5366" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_058_800w.webp 800w, assets/Portraits/optimized/portraits_058_1200w.webp 1200w, assets/Portraits/optimized/portraits_058_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_058.jpg" alt="Portrait 58" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-    <div class="gallery-item">
-      <picture>
-        <source type="image/webp" srcset="assets/Portraits/optimized/portraits_059_800w.webp 800w, assets/Portraits/optimized/portraits_059_1200w.webp 1200w, assets/Portraits/optimized/portraits_059_1600w.webp 1600w" sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw">
-        <img src="assets/Portraits/portraits_059.jpg" alt="Portrait 59" width="3648" height="5472" loading="lazy" decoding="async">
-      </picture>
-    </div>
-  </section>
-  <!-- Footer -->
-  </main>
-  <footer class="footer">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <a href="index.html" class="title-md logo">Lakshyajit Photography</a>
-        <p>out at the bottom.</p>
-      </div>
-      <div class="footer-newsletter">
-        <p>Ahh, You made it to the bottom! Did you check out my photos? If so, I hope you enjoyed what I had to offer!</p>
-        <p style="margin-bottom: 1rem;">For now...</p>
-        <h4 style="color: #c9ada7; margin-bottom: 0.5rem; font-weight: 400;">Newsletter</h4>
-        <p class="sub-text">Uhh... I don't have newsletter yet, but if I make one you'll be the first to know.</p>
-
-        <form class="newsletter-form">
-          <input type="email" placeholder="Email Address" required>
-          <button type="submit" class="btn-newsletter">Sign Up</button>
-        </form>
-        <p class="sub-text" style="margin-top: 1rem; font-size: 0.75rem;">We respect your privacy.</p>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div>
-        <span id="footer-time">23:09:22 CHENNAI, INDIA<br>SATURDAY, 04.04.26</span>
-      </div>
-      <div class="footer-socials">
-        <a href="https://www.instagram.com/lxy_visuals/" target="_blank" aria-label="Instagram" style="color: inherit;">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-          </svg>
-        </a>
-      </div>
-      <div class="footer-links">
-        <a href="contact.html">Contact</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy Policy</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/main.js"></script>
+<body class="collection-portraits">
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header container"><a class="brand" href="index.html" aria-label="LXY Visuals — Home"><span class="brand-mark">LXY.</span><span class="brand-note">VISUALS BY<br>LAKSHYAJIT</span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">Menu +</button><nav class="site-nav" id="site-navigation" aria-label="Main navigation"><a href="index.html">Home</a>
+<a href="gallery.html">Photography Gallery</a>
+<a href="animals.html">Wildlife</a>
+<a href="cars.html">Cars</a>
+<a href="portraits.html" aria-current="page">Portraits</a>
+<a href="index.html#about">About</a>
+<a href="contact.html">Contact</a></nav></header>
+<main id="main" tabindex="-1">
+  <section class="page-intro container"><p class="eyebrow">People, as they are.</p><h1>Portraits.</h1><div class="intro-bottom"><p>Faces, gestures, and the quiet space between poses. A collection of portraits made with friends and people in front of my lens.</p><nav class="collection-nav" aria-label="Collections"><a href="gallery.html">Gallery</a>
+<a href="portraits.html" aria-current="page">Portraits</a>
+<a href="animals.html">Wildlife</a>
+<a href="cars.html">Cars</a></nav></div></section>
+  <div class="container"><div class="gallery-header meta"><span>59 photographs / Portraits</span><span>Open a frame to explore ↗</span></div><div class="gallery-grid" data-gallery><figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_002_1600w.webp" data-lightbox data-id="portraits_002" aria-label="Open photograph: Woman in a floral dress on a beach at blue hour"><picture><img src="assets/Portraits/optimized/portraits_002_800w.webp" srcset="assets/Portraits/optimized/portraits_002_800w.webp 800w, assets/Portraits/optimized/portraits_002_1200w.webp 1200w, assets/Portraits/optimized/portraits_002_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Woman in a floral dress on a beach at blue hour" loading="eager" decoding="async" fetchpriority="high"></picture></a><figcaption><span>Portraits</span><span>Frame 002</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_001_1200w.webp" data-lightbox data-id="portraits_001" aria-label="Open photograph: Woman in patterned clothing against a blue wall"><picture><img src="assets/Portraits/optimized/portraits_001_800w.webp" srcset="assets/Portraits/optimized/portraits_001_800w.webp 800w, assets/Portraits/optimized/portraits_001_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Woman in patterned clothing against a blue wall" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 001</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_003_1600w.webp" data-lightbox data-id="portraits_003" aria-label="Open photograph: Portraits study, frame 003 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_003_800w.webp" srcset="assets/Portraits/optimized/portraits_003_800w.webp 800w, assets/Portraits/optimized/portraits_003_1200w.webp 1200w, assets/Portraits/optimized/portraits_003_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 003 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 003</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_004_1600w.webp" data-lightbox data-id="portraits_004" aria-label="Open photograph: Portraits study, frame 004 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_004_800w.webp" srcset="assets/Portraits/optimized/portraits_004_800w.webp 800w, assets/Portraits/optimized/portraits_004_1200w.webp 1200w, assets/Portraits/optimized/portraits_004_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 004 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 004</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_005_1600w.webp" data-lightbox data-id="portraits_005" aria-label="Open photograph: Portraits study, frame 005 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_005_800w.webp" srcset="assets/Portraits/optimized/portraits_005_800w.webp 800w, assets/Portraits/optimized/portraits_005_1200w.webp 1200w, assets/Portraits/optimized/portraits_005_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 005 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 005</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_006_1600w.webp" data-lightbox data-id="portraits_006" aria-label="Open photograph: Portraits study, frame 006 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_006_800w.webp" srcset="assets/Portraits/optimized/portraits_006_800w.webp 800w, assets/Portraits/optimized/portraits_006_1200w.webp 1200w, assets/Portraits/optimized/portraits_006_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 006 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 006</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_007_1600w.webp" data-lightbox data-id="portraits_007" aria-label="Open photograph: Portraits study, frame 007 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_007_800w.webp" srcset="assets/Portraits/optimized/portraits_007_800w.webp 800w, assets/Portraits/optimized/portraits_007_1200w.webp 1200w, assets/Portraits/optimized/portraits_007_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1336" alt="Portraits study, frame 007 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 007</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_008_1600w.webp" data-lightbox data-id="portraits_008" aria-label="Open photograph: Portraits study, frame 008 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_008_800w.webp" srcset="assets/Portraits/optimized/portraits_008_800w.webp 800w, assets/Portraits/optimized/portraits_008_1200w.webp 1200w, assets/Portraits/optimized/portraits_008_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="530" alt="Portraits study, frame 008 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 008</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_009_1600w.webp" data-lightbox data-id="portraits_009" aria-label="Open photograph: Portraits study, frame 009 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_009_800w.webp" srcset="assets/Portraits/optimized/portraits_009_800w.webp 800w, assets/Portraits/optimized/portraits_009_1200w.webp 1200w, assets/Portraits/optimized/portraits_009_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 009 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 009</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_010_1600w.webp" data-lightbox data-id="portraits_010" aria-label="Open photograph: Portraits study, frame 010 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_010_800w.webp" srcset="assets/Portraits/optimized/portraits_010_800w.webp 800w, assets/Portraits/optimized/portraits_010_1200w.webp 1200w, assets/Portraits/optimized/portraits_010_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 010 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 010</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_011_1600w.webp" data-lightbox data-id="portraits_011" aria-label="Open photograph: Portraits study, frame 011 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_011_800w.webp" srcset="assets/Portraits/optimized/portraits_011_800w.webp 800w, assets/Portraits/optimized/portraits_011_1200w.webp 1200w, assets/Portraits/optimized/portraits_011_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 011 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 011</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_012_1600w.webp" data-lightbox data-id="portraits_012" aria-label="Open photograph: Portraits study, frame 012 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_012_800w.webp" srcset="assets/Portraits/optimized/portraits_012_800w.webp 800w, assets/Portraits/optimized/portraits_012_1200w.webp 1200w, assets/Portraits/optimized/portraits_012_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 012 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 012</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_013_1600w.webp" data-lightbox data-id="portraits_013" aria-label="Open photograph: Portraits study, frame 013 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_013_800w.webp" srcset="assets/Portraits/optimized/portraits_013_800w.webp 800w, assets/Portraits/optimized/portraits_013_1200w.webp 1200w, assets/Portraits/optimized/portraits_013_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1219" alt="Portraits study, frame 013 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 013</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_014_1600w.webp" data-lightbox data-id="portraits_014" aria-label="Open photograph: Portraits study, frame 014 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_014_800w.webp" srcset="assets/Portraits/optimized/portraits_014_800w.webp 800w, assets/Portraits/optimized/portraits_014_1200w.webp 1200w, assets/Portraits/optimized/portraits_014_1600w.webp 1365w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 014 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 014</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_015_1600w.webp" data-lightbox data-id="portraits_015" aria-label="Open photograph: Portraits study, frame 015 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_015_800w.webp" srcset="assets/Portraits/optimized/portraits_015_800w.webp 800w, assets/Portraits/optimized/portraits_015_1200w.webp 1200w, assets/Portraits/optimized/portraits_015_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 015 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 015</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_016_1600w.webp" data-lightbox data-id="portraits_016" aria-label="Open photograph: Portraits study, frame 016 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_016_800w.webp" srcset="assets/Portraits/optimized/portraits_016_800w.webp 800w, assets/Portraits/optimized/portraits_016_1200w.webp 1200w, assets/Portraits/optimized/portraits_016_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="495" alt="Portraits study, frame 016 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 016</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_017_800w.webp" data-lightbox data-id="portraits_017" aria-label="Open photograph: Portraits study, frame 017 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_017_800w.webp" srcset="assets/Portraits/optimized/portraits_017_800w.webp 682w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="682" height="1024" alt="Portraits study, frame 017 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 017</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_018_1600w.webp" data-lightbox data-id="portraits_018" aria-label="Open photograph: Portraits study, frame 018 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_018_800w.webp" srcset="assets/Portraits/optimized/portraits_018_800w.webp 800w, assets/Portraits/optimized/portraits_018_1200w.webp 1200w, assets/Portraits/optimized/portraits_018_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 018 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 018</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_019_1600w.webp" data-lightbox data-id="portraits_019" aria-label="Open photograph: Portraits study, frame 019 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_019_800w.webp" srcset="assets/Portraits/optimized/portraits_019_800w.webp 800w, assets/Portraits/optimized/portraits_019_1200w.webp 1200w, assets/Portraits/optimized/portraits_019_1600w.webp 1365w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 019 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 019</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_020_1600w.webp" data-lightbox data-id="portraits_020" aria-label="Open photograph: Portraits study, frame 020 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_020_800w.webp" srcset="assets/Portraits/optimized/portraits_020_800w.webp 800w, assets/Portraits/optimized/portraits_020_1200w.webp 1200w, assets/Portraits/optimized/portraits_020_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 020 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 020</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_021_1600w.webp" data-lightbox data-id="portraits_021" aria-label="Open photograph: Portraits study, frame 021 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_021_800w.webp" srcset="assets/Portraits/optimized/portraits_021_800w.webp 800w, assets/Portraits/optimized/portraits_021_1200w.webp 1200w, assets/Portraits/optimized/portraits_021_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 021 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 021</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_022_1600w.webp" data-lightbox data-id="portraits_022" aria-label="Open photograph: Portraits study, frame 022 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_022_800w.webp" srcset="assets/Portraits/optimized/portraits_022_800w.webp 800w, assets/Portraits/optimized/portraits_022_1200w.webp 1200w, assets/Portraits/optimized/portraits_022_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 022 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 022</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_023_1600w.webp" data-lightbox data-id="portraits_023" aria-label="Open photograph: Portraits study, frame 023 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_023_800w.webp" srcset="assets/Portraits/optimized/portraits_023_800w.webp 800w, assets/Portraits/optimized/portraits_023_1200w.webp 1200w, assets/Portraits/optimized/portraits_023_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 023 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 023</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_024_1600w.webp" data-lightbox data-id="portraits_024" aria-label="Open photograph: Portraits study, frame 024 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_024_800w.webp" srcset="assets/Portraits/optimized/portraits_024_800w.webp 800w, assets/Portraits/optimized/portraits_024_1200w.webp 1200w, assets/Portraits/optimized/portraits_024_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="554" alt="Portraits study, frame 024 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 024</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_025_1600w.webp" data-lightbox data-id="portraits_025" aria-label="Open photograph: Portraits study, frame 025 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_025_800w.webp" srcset="assets/Portraits/optimized/portraits_025_800w.webp 800w, assets/Portraits/optimized/portraits_025_1200w.webp 1200w, assets/Portraits/optimized/portraits_025_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 025 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 025</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_026_1600w.webp" data-lightbox data-id="portraits_026" aria-label="Open photograph: Portraits study, frame 026 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_026_800w.webp" srcset="assets/Portraits/optimized/portraits_026_800w.webp 800w, assets/Portraits/optimized/portraits_026_1200w.webp 1200w, assets/Portraits/optimized/portraits_026_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 026 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 026</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_027_1600w.webp" data-lightbox data-id="portraits_027" aria-label="Open photograph: Portraits study, frame 027 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_027_800w.webp" srcset="assets/Portraits/optimized/portraits_027_800w.webp 800w, assets/Portraits/optimized/portraits_027_1200w.webp 1200w, assets/Portraits/optimized/portraits_027_1600w.webp 1365w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 027 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 027</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_028_1600w.webp" data-lightbox data-id="portraits_028" aria-label="Open photograph: Portraits study, frame 028 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_028_800w.webp" srcset="assets/Portraits/optimized/portraits_028_800w.webp 800w, assets/Portraits/optimized/portraits_028_1200w.webp 1200w, assets/Portraits/optimized/portraits_028_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 028 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 028</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_029_1600w.webp" data-lightbox data-id="portraits_029" aria-label="Open photograph: Portraits study, frame 029 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_029_800w.webp" srcset="assets/Portraits/optimized/portraits_029_800w.webp 800w, assets/Portraits/optimized/portraits_029_1200w.webp 1200w, assets/Portraits/optimized/portraits_029_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 029 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 029</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_030_1600w.webp" data-lightbox data-id="portraits_030" aria-label="Open photograph: Portraits study, frame 030 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_030_800w.webp" srcset="assets/Portraits/optimized/portraits_030_800w.webp 800w, assets/Portraits/optimized/portraits_030_1200w.webp 1200w, assets/Portraits/optimized/portraits_030_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 030 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 030</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_031_1600w.webp" data-lightbox data-id="portraits_031" aria-label="Open photograph: Portraits study, frame 031 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_031_800w.webp" srcset="assets/Portraits/optimized/portraits_031_800w.webp 800w, assets/Portraits/optimized/portraits_031_1200w.webp 1200w, assets/Portraits/optimized/portraits_031_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 031 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 031</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_032_1600w.webp" data-lightbox data-id="portraits_032" aria-label="Open photograph: Portraits study, frame 032 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_032_800w.webp" srcset="assets/Portraits/optimized/portraits_032_800w.webp 800w, assets/Portraits/optimized/portraits_032_1200w.webp 1200w, assets/Portraits/optimized/portraits_032_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 032 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 032</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_033_1600w.webp" data-lightbox data-id="portraits_033" aria-label="Open photograph: Portraits study, frame 033 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_033_800w.webp" srcset="assets/Portraits/optimized/portraits_033_800w.webp 800w, assets/Portraits/optimized/portraits_033_1200w.webp 1200w, assets/Portraits/optimized/portraits_033_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 033 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 033</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_034_1600w.webp" data-lightbox data-id="portraits_034" aria-label="Open photograph: Portraits study, frame 034 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_034_800w.webp" srcset="assets/Portraits/optimized/portraits_034_800w.webp 800w, assets/Portraits/optimized/portraits_034_1200w.webp 1200w, assets/Portraits/optimized/portraits_034_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 034 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 034</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_035_1600w.webp" data-lightbox data-id="portraits_035" aria-label="Open photograph: Portraits study, frame 035 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_035_800w.webp" srcset="assets/Portraits/optimized/portraits_035_800w.webp 800w, assets/Portraits/optimized/portraits_035_1200w.webp 1200w, assets/Portraits/optimized/portraits_035_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 035 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 035</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_036_1200w.webp" data-lightbox data-id="portraits_036" aria-label="Open photograph: Portraits study, frame 036 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_036_800w.webp" srcset="assets/Portraits/optimized/portraits_036_800w.webp 800w, assets/Portraits/optimized/portraits_036_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Portraits study, frame 036 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 036</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_037_1600w.webp" data-lightbox data-id="portraits_037" aria-label="Open photograph: Portraits study, frame 037 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_037_800w.webp" srcset="assets/Portraits/optimized/portraits_037_800w.webp 800w, assets/Portraits/optimized/portraits_037_1200w.webp 1200w, assets/Portraits/optimized/portraits_037_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1107" alt="Portraits study, frame 037 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 037</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_038_1600w.webp" data-lightbox data-id="portraits_038" aria-label="Open photograph: Portraits study, frame 038 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_038_800w.webp" srcset="assets/Portraits/optimized/portraits_038_800w.webp 800w, assets/Portraits/optimized/portraits_038_1200w.webp 1200w, assets/Portraits/optimized/portraits_038_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 038 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 038</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_039_1600w.webp" data-lightbox data-id="portraits_039" aria-label="Open photograph: Portraits study, frame 039 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_039_800w.webp" srcset="assets/Portraits/optimized/portraits_039_800w.webp 800w, assets/Portraits/optimized/portraits_039_1200w.webp 1200w, assets/Portraits/optimized/portraits_039_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="553" alt="Portraits study, frame 039 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 039</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_040_1600w.webp" data-lightbox data-id="portraits_040" aria-label="Open photograph: Portraits study, frame 040 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_040_800w.webp" srcset="assets/Portraits/optimized/portraits_040_800w.webp 800w, assets/Portraits/optimized/portraits_040_1200w.webp 1200w, assets/Portraits/optimized/portraits_040_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1375" alt="Portraits study, frame 040 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 040</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_041_1600w.webp" data-lightbox data-id="portraits_041" aria-label="Open photograph: Portraits study, frame 041 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_041_800w.webp" srcset="assets/Portraits/optimized/portraits_041_800w.webp 800w, assets/Portraits/optimized/portraits_041_1200w.webp 1200w, assets/Portraits/optimized/portraits_041_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="495" alt="Portraits study, frame 041 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 041</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_042_1200w.webp" data-lightbox data-id="portraits_042" aria-label="Open photograph: Portraits study, frame 042 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_042_800w.webp" srcset="assets/Portraits/optimized/portraits_042_800w.webp 800w, assets/Portraits/optimized/portraits_042_1200w.webp 960w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 042 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 042</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_043_1600w.webp" data-lightbox data-id="portraits_043" aria-label="Open photograph: Portraits study, frame 043 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_043_800w.webp" srcset="assets/Portraits/optimized/portraits_043_800w.webp 800w, assets/Portraits/optimized/portraits_043_1200w.webp 1200w, assets/Portraits/optimized/portraits_043_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 043 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 043</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_044_1200w.webp" data-lightbox data-id="portraits_044" aria-label="Open photograph: Portraits study, frame 044 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_044_800w.webp" srcset="assets/Portraits/optimized/portraits_044_800w.webp 800w, assets/Portraits/optimized/portraits_044_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Portraits study, frame 044 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 044</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_045_1600w.webp" data-lightbox data-id="portraits_045" aria-label="Open photograph: Portraits study, frame 045 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_045_800w.webp" srcset="assets/Portraits/optimized/portraits_045_800w.webp 800w, assets/Portraits/optimized/portraits_045_1200w.webp 1200w, assets/Portraits/optimized/portraits_045_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 045 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 045</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_046_1200w.webp" data-lightbox data-id="portraits_046" aria-label="Open photograph: Portraits study, frame 046 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_046_800w.webp" srcset="assets/Portraits/optimized/portraits_046_800w.webp 800w, assets/Portraits/optimized/portraits_046_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Portraits study, frame 046 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 046</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_047_1600w.webp" data-lightbox data-id="portraits_047" aria-label="Open photograph: Portraits study, frame 047 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_047_800w.webp" srcset="assets/Portraits/optimized/portraits_047_800w.webp 800w, assets/Portraits/optimized/portraits_047_1200w.webp 1200w, assets/Portraits/optimized/portraits_047_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 047 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 047</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_048_1200w.webp" data-lightbox data-id="portraits_048" aria-label="Open photograph: Portraits study, frame 048 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_048_800w.webp" srcset="assets/Portraits/optimized/portraits_048_800w.webp 800w, assets/Portraits/optimized/portraits_048_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Portraits study, frame 048 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 048</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_049_1600w.webp" data-lightbox data-id="portraits_049" aria-label="Open photograph: Portraits study, frame 049 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_049_800w.webp" srcset="assets/Portraits/optimized/portraits_049_800w.webp 800w, assets/Portraits/optimized/portraits_049_1200w.webp 1200w, assets/Portraits/optimized/portraits_049_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 049 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 049</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_050_1600w.webp" data-lightbox data-id="portraits_050" aria-label="Open photograph: Portraits study, frame 050 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_050_800w.webp" srcset="assets/Portraits/optimized/portraits_050_800w.webp 800w, assets/Portraits/optimized/portraits_050_1200w.webp 1200w, assets/Portraits/optimized/portraits_050_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 050 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 050</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_051_1600w.webp" data-lightbox data-id="portraits_051" aria-label="Open photograph: Portraits study, frame 051 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_051_800w.webp" srcset="assets/Portraits/optimized/portraits_051_800w.webp 800w, assets/Portraits/optimized/portraits_051_1200w.webp 1200w, assets/Portraits/optimized/portraits_051_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1199" alt="Portraits study, frame 051 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 051</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_052_1200w.webp" data-lightbox data-id="portraits_052" aria-label="Open photograph: Portraits study, frame 052 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_052_800w.webp" srcset="assets/Portraits/optimized/portraits_052_800w.webp 800w, assets/Portraits/optimized/portraits_052_1200w.webp 1080w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1066" alt="Portraits study, frame 052 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 052</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_053_1600w.webp" data-lightbox data-id="portraits_053" aria-label="Open photograph: Portraits study, frame 053 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_053_800w.webp" srcset="assets/Portraits/optimized/portraits_053_800w.webp 800w, assets/Portraits/optimized/portraits_053_1200w.webp 1200w, assets/Portraits/optimized/portraits_053_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 053 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 053</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_054_1600w.webp" data-lightbox data-id="portraits_054" aria-label="Open photograph: Portraits study, frame 054 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_054_800w.webp" srcset="assets/Portraits/optimized/portraits_054_800w.webp 800w, assets/Portraits/optimized/portraits_054_1200w.webp 1200w, assets/Portraits/optimized/portraits_054_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="533" alt="Portraits study, frame 054 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 054</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_055_1600w.webp" data-lightbox data-id="portraits_055" aria-label="Open photograph: Portraits study, frame 055 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_055_800w.webp" srcset="assets/Portraits/optimized/portraits_055_800w.webp 800w, assets/Portraits/optimized/portraits_055_1200w.webp 1200w, assets/Portraits/optimized/portraits_055_1600w.webp 1365w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 055 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 055</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_056_1600w.webp" data-lightbox data-id="portraits_056" aria-label="Open photograph: Portraits study, frame 056 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_056_800w.webp" srcset="assets/Portraits/optimized/portraits_056_800w.webp 800w, assets/Portraits/optimized/portraits_056_1200w.webp 1200w, assets/Portraits/optimized/portraits_056_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 056 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 056</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_057_1600w.webp" data-lightbox data-id="portraits_057" aria-label="Open photograph: Portraits study, frame 057 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_057_800w.webp" srcset="assets/Portraits/optimized/portraits_057_800w.webp 800w, assets/Portraits/optimized/portraits_057_1200w.webp 1200w, assets/Portraits/optimized/portraits_057_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1073" alt="Portraits study, frame 057 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 057</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_058_1600w.webp" data-lightbox data-id="portraits_058" aria-label="Open photograph: Portraits study, frame 058 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_058_800w.webp" srcset="assets/Portraits/optimized/portraits_058_800w.webp 800w, assets/Portraits/optimized/portraits_058_1200w.webp 1200w, assets/Portraits/optimized/portraits_058_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 058 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 058</span></figcaption></figure>
+<figure class="photo"><a class="photo-link" href="assets/Portraits/optimized/portraits_059_1600w.webp" data-lightbox data-id="portraits_059" aria-label="Open photograph: Portraits study, frame 059 by Lakshyajit"><picture><img src="assets/Portraits/optimized/portraits_059_800w.webp" srcset="assets/Portraits/optimized/portraits_059_800w.webp 800w, assets/Portraits/optimized/portraits_059_1200w.webp 1200w, assets/Portraits/optimized/portraits_059_1600w.webp 1600w" sizes="(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw" width="800" height="1200" alt="Portraits study, frame 059 by Lakshyajit" loading="lazy" decoding="async"></picture></a><figcaption><span>Portraits</span><span>Frame 059</span></figcaption></figure></div></div>
+  <section class="next-collection container"><p class="eyebrow">Next collection</p><a href="animals.html">Wildlife <span aria-hidden="true">↗</span></a></section></main>
+<footer class="site-footer container"><div class="footer-top"><div><a class="brand" href="index.html" aria-label="LXY Visuals — Home"><span class="brand-mark">LXY.</span><span class="brand-note">VISUALS BY<br>LAKSHYAJIT</span></a><p>Independent photography.<br>Chennai, India.</p></div><nav class="footer-nav" aria-label="Footer"><a href="index.html">Home</a>
+<a href="gallery.html">Photography Gallery</a>
+<a href="animals.html">Wildlife</a>
+<a href="cars.html">Cars</a>
+<a href="portraits.html">Portraits</a>
+<a href="index.html#about">About</a>
+<a href="contact.html">Contact</a><a href="https://www.instagram.com/lxy_visuals/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav></div><div class="footer-wordmark" aria-hidden="true">LXY VISUALS</div><div class="footer-bottom"><span>© <span data-year>2026</span> Lakshyajit Photography</span><span>Chennai, India <time id="chennai-time"></time></span><a href="#top">Back to top ↑</a></div></footer>
+<dialog class="lightbox" id="lightbox" aria-label="Photograph viewer"><div class="lightbox-top"><p class="meta" id="lightbox-count"></p><button class="button" id="lightbox-close" type="button" autofocus>Close <span aria-hidden="true">×</span></button></div><div class="lightbox-stage" id="lightbox-stage"><p class="lightbox-status" id="lightbox-status" role="status" aria-live="polite"></p></div><div class="lightbox-bottom"><p id="lightbox-caption" aria-live="polite"></p><div class="lightbox-controls"><button class="button" id="lightbox-prev" type="button" aria-label="Previous photograph">← Previous</button><button class="button" id="lightbox-next" type="button" aria-label="Next photograph">Next →</button></div></div></dialog>
 </body>
 </html>

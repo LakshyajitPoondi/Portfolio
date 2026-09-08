@@ -1,0 +1,6051 @@
+{
+  "collections": {
+    "gallery": {
+      "label": "Photography Gallery",
+      "route": "gallery.html",
+      "images": [
+        {
+          "id": "gallery_001",
+          "original": "assets/Gallery/gallery_001.jpg",
+          "alt": "Red flowers against deep green foliage",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_001_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_001_1200w.webp",
+              "width": 1200,
+              "height": 799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_001_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_002",
+          "original": "assets/Gallery/gallery_002.jpg",
+          "alt": "Photography Gallery study, frame 002 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_002_800w.webp",
+              "width": 800,
+              "height": 590
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_002_1200w.webp",
+              "width": 1200,
+              "height": 885
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_002_1600w.webp",
+              "width": 1600,
+              "height": 1181
+            }
+          ]
+        },
+        {
+          "id": "gallery_003",
+          "original": "assets/Gallery/gallery_003.jpg",
+          "alt": "Photography Gallery study, frame 003 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_003_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_003_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_003_1600w.webp",
+              "width": 1365,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_004",
+          "original": "assets/Gallery/gallery_004.jpg",
+          "alt": "Photography Gallery study, frame 004 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_004_800w.webp",
+              "width": 800,
+              "height": 1146
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_004_1200w.webp",
+              "width": 1200,
+              "height": 1720
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_004_1600w.webp",
+              "width": 1600,
+              "height": 2293
+            }
+          ]
+        },
+        {
+          "id": "gallery_005",
+          "original": "assets/Gallery/gallery_005.jpg",
+          "alt": "Photography Gallery study, frame 005 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_005_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_005_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_005_1600w.webp",
+              "width": 1600,
+              "height": 2133
+            }
+          ]
+        },
+        {
+          "id": "gallery_006",
+          "original": "assets/Gallery/gallery_006.jpg",
+          "alt": "Photography Gallery study, frame 006 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_006_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_006_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_006_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "gallery_007",
+          "original": "assets/Gallery/gallery_007.jpg",
+          "alt": "Photography Gallery study, frame 007 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_007_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_007_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_007_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_008",
+          "original": "assets/Gallery/gallery_008.jpg",
+          "alt": "Photography Gallery study, frame 008 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_008_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_008_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_008_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_009",
+          "original": "assets/Gallery/gallery_009.jpg",
+          "alt": "Photography Gallery study, frame 009 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_009_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_009_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_009_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "gallery_010",
+          "original": "assets/Gallery/gallery_010.jpg",
+          "alt": "Beachside snack stall facing a pale blue sea",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_010_800w.webp",
+              "width": 800,
+              "height": 534
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_010_1200w.webp",
+              "width": 1200,
+              "height": 801
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_010_1600w.webp",
+              "width": 1600,
+              "height": 1068
+            }
+          ]
+        },
+        {
+          "id": "gallery_011",
+          "original": "assets/Gallery/gallery_011.jpg",
+          "alt": "Photography Gallery study, frame 011 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_011_800w.webp",
+              "width": 800,
+              "height": 629
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_011_1200w.webp",
+              "width": 1200,
+              "height": 943
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_011_1600w.webp",
+              "width": 1600,
+              "height": 1258
+            }
+          ]
+        },
+        {
+          "id": "gallery_012",
+          "original": "assets/Gallery/gallery_012.jpg",
+          "alt": "Photography Gallery study, frame 012 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_012_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_012_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_012_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_013",
+          "original": "assets/Gallery/gallery_013.jpg",
+          "alt": "Photography Gallery study, frame 013 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_013_800w.webp",
+              "width": 800,
+              "height": 437
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_013_1200w.webp",
+              "width": 1200,
+              "height": 655
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_013_1600w.webp",
+              "width": 1600,
+              "height": 874
+            }
+          ]
+        },
+        {
+          "id": "gallery_014",
+          "original": "assets/Gallery/gallery_014.jpg",
+          "alt": "Photography Gallery study, frame 014 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_014_800w.webp",
+              "width": 800,
+              "height": 450
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_014_1200w.webp",
+              "width": 1200,
+              "height": 675
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_014_1600w.webp",
+              "width": 1600,
+              "height": 900
+            }
+          ]
+        },
+        {
+          "id": "gallery_015",
+          "original": "assets/Gallery/gallery_015.jpg",
+          "alt": "Photography Gallery study, frame 015 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_015_800w.webp",
+              "width": 800,
+              "height": 1195
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_015_1200w.webp",
+              "width": 1200,
+              "height": 1793
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_015_1600w.webp",
+              "width": 1600,
+              "height": 2391
+            }
+          ]
+        },
+        {
+          "id": "gallery_016",
+          "original": "assets/Gallery/gallery_016.jpg",
+          "alt": "Photography Gallery study, frame 016 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_016_800w.webp",
+              "width": 800,
+              "height": 1284
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_016_1200w.webp",
+              "width": 1200,
+              "height": 1926
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_016_1600w.webp",
+              "width": 1276,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_017",
+          "original": "assets/Gallery/gallery_017.jpg",
+          "alt": "Photography Gallery study, frame 017 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_017_800w.webp",
+              "width": 800,
+              "height": 1201
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_017_1200w.webp",
+              "width": 1200,
+              "height": 1801
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_017_1600w.webp",
+              "width": 1364,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_018",
+          "original": "assets/Gallery/gallery_018.jpg",
+          "alt": "Photography Gallery study, frame 018 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_018_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_018_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_018_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_019",
+          "original": "assets/Gallery/gallery_019.jpg",
+          "alt": "Photography Gallery study, frame 019 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_019_800w.webp",
+              "width": 800,
+              "height": 1272
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_019_1200w.webp",
+              "width": 1200,
+              "height": 1908
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_019_1600w.webp",
+              "width": 1288,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_020",
+          "original": "assets/Gallery/gallery_020.jpg",
+          "alt": "Photography Gallery study, frame 020 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_020_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_020_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_020_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_021",
+          "original": "assets/Gallery/gallery_021.jpg",
+          "alt": "Photography Gallery study, frame 021 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_021_800w.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_021_1200w.webp",
+              "width": 1200,
+              "height": 1500
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_021_1600w.webp",
+              "width": 1600,
+              "height": 2000
+            }
+          ]
+        },
+        {
+          "id": "gallery_022",
+          "original": "assets/Gallery/gallery_022.jpg",
+          "alt": "Photography Gallery study, frame 022 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_022_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_022_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_022_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "gallery_023",
+          "original": "assets/Gallery/gallery_023.jpg",
+          "alt": "Photography Gallery study, frame 023 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_023_800w.webp",
+              "width": 800,
+              "height": 1168
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_023_1200w.webp",
+              "width": 1200,
+              "height": 1752
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_023_1600w.webp",
+              "width": 1402,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_024",
+          "original": "assets/Gallery/gallery_024.jpg",
+          "alt": "Photography Gallery study, frame 024 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_024_800w.webp",
+              "width": 800,
+              "height": 371
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_024_1200w.webp",
+              "width": 1200,
+              "height": 557
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_024_1600w.webp",
+              "width": 1600,
+              "height": 742
+            }
+          ]
+        },
+        {
+          "id": "gallery_025",
+          "original": "assets/Gallery/gallery_025.jpg",
+          "alt": "Photography Gallery study, frame 025 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_025_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_025_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_025_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_026",
+          "original": "assets/Gallery/gallery_026.jpg",
+          "alt": "Photography Gallery study, frame 026 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_026_800w.webp",
+              "width": 800,
+              "height": 494
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_026_1200w.webp",
+              "width": 1200,
+              "height": 741
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_026_1600w.webp",
+              "width": 1600,
+              "height": 988
+            }
+          ]
+        },
+        {
+          "id": "gallery_027",
+          "original": "assets/Gallery/gallery_027.jpg",
+          "alt": "Photography Gallery study, frame 027 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_027_800w.webp",
+              "width": 800,
+              "height": 623
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_027_1200w.webp",
+              "width": 1200,
+              "height": 934
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_027_1600w.webp",
+              "width": 1600,
+              "height": 1246
+            }
+          ]
+        },
+        {
+          "id": "gallery_028",
+          "original": "assets/Gallery/gallery_028.jpg",
+          "alt": "Photography Gallery study, frame 028 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_028_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_028_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_028_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "gallery_029",
+          "original": "assets/Gallery/gallery_029.jpg",
+          "alt": "Photography Gallery study, frame 029 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_029_800w.webp",
+              "width": 800,
+              "height": 1292
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_029_1200w.webp",
+              "width": 1200,
+              "height": 1939
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_029_1600w.webp",
+              "width": 1600,
+              "height": 2585
+            }
+          ]
+        },
+        {
+          "id": "gallery_030",
+          "original": "assets/Gallery/gallery_030.jpg",
+          "alt": "Photography Gallery study, frame 030 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_030_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_030_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_030_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_031",
+          "original": "assets/Gallery/gallery_031.jpg",
+          "alt": "Photography Gallery study, frame 031 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_031_800w.webp",
+              "width": 800,
+              "height": 1203
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_031_1200w.webp",
+              "width": 1200,
+              "height": 1805
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_031_1600w.webp",
+              "width": 1361,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_032",
+          "original": "assets/Gallery/gallery_032.jpg",
+          "alt": "Photography Gallery study, frame 032 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_032_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_032_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_032_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_033",
+          "original": "assets/Gallery/gallery_033.jpg",
+          "alt": "Photography Gallery study, frame 033 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_033_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_033_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_033_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_034",
+          "original": "assets/Gallery/gallery_034.jpg",
+          "alt": "Photography Gallery study, frame 034 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_034_800w.webp",
+              "width": 800,
+              "height": 1407
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_034_1200w.webp",
+              "width": 1164,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_035",
+          "original": "assets/Gallery/gallery_035.jpg",
+          "alt": "Photography Gallery study, frame 035 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_035_800w.webp",
+              "width": 800,
+              "height": 355
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_035_1200w.webp",
+              "width": 1200,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_035_1600w.webp",
+              "width": 1600,
+              "height": 711
+            }
+          ]
+        },
+        {
+          "id": "gallery_036",
+          "original": "assets/Gallery/gallery_036.jpg",
+          "alt": "Photography Gallery study, frame 036 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_036_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_036_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_036_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_037",
+          "original": "assets/Gallery/gallery_037.jpg",
+          "alt": "Photography Gallery study, frame 037 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_037_800w.webp",
+              "width": 800,
+              "height": 1203
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_037_1200w.webp",
+              "width": 1200,
+              "height": 1805
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_037_1600w.webp",
+              "width": 1361,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_038",
+          "original": "assets/Gallery/gallery_038.jpg",
+          "alt": "Photography Gallery study, frame 038 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_038_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_038_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_038_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "gallery_039",
+          "original": "assets/Gallery/gallery_039.jpg",
+          "alt": "Photography Gallery study, frame 039 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_039_800w.webp",
+              "width": 800,
+              "height": 495
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_039_1200w.webp",
+              "width": 1200,
+              "height": 743
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_039_1600w.webp",
+              "width": 1600,
+              "height": 991
+            }
+          ]
+        },
+        {
+          "id": "gallery_040",
+          "original": "assets/Gallery/gallery_040.jpg",
+          "alt": "Photography Gallery study, frame 040 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_040_800w.webp",
+              "width": 800,
+              "height": 1206
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_040_1200w.webp",
+              "width": 1200,
+              "height": 1809
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_040_1600w.webp",
+              "width": 1358,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_041",
+          "original": "assets/Gallery/gallery_041.jpg",
+          "alt": "Photography Gallery study, frame 041 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_041_800w.webp",
+              "width": 800,
+              "height": 396
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_041_1200w.webp",
+              "width": 1200,
+              "height": 595
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_041_1600w.webp",
+              "width": 1600,
+              "height": 793
+            }
+          ]
+        },
+        {
+          "id": "gallery_042",
+          "original": "assets/Gallery/gallery_042.jpg",
+          "alt": "Photography Gallery study, frame 042 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_042_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_042_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_042_1600w.webp",
+              "width": 1600,
+              "height": 2133
+            }
+          ]
+        },
+        {
+          "id": "gallery_043",
+          "original": "assets/Gallery/gallery_043.jpg",
+          "alt": "Photography Gallery study, frame 043 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_043_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_043_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_043_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_044",
+          "original": "assets/Gallery/gallery_044.jpg",
+          "alt": "Photography Gallery study, frame 044 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_044_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_044_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_044_1600w.webp",
+              "width": 1536,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_045",
+          "original": "assets/Gallery/gallery_045.jpg",
+          "alt": "Photography Gallery study, frame 045 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_045_800w.webp",
+              "width": 800,
+              "height": 1167
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_045_1200w.webp",
+              "width": 1200,
+              "height": 1751
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_045_1600w.webp",
+              "width": 1600,
+              "height": 2335
+            }
+          ]
+        },
+        {
+          "id": "gallery_046",
+          "original": "assets/Gallery/gallery_046.jpg",
+          "alt": "Photography Gallery study, frame 046 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_046_800w.webp",
+              "width": 800,
+              "height": 1296
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_046_1200w.webp",
+              "width": 1200,
+              "height": 1945
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_046_1600w.webp",
+              "width": 1600,
+              "height": 2593
+            }
+          ]
+        },
+        {
+          "id": "gallery_047",
+          "original": "assets/Gallery/gallery_047.jpg",
+          "alt": "Photography Gallery study, frame 047 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_047_800w.webp",
+              "width": 800,
+              "height": 766
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_047_1200w.webp",
+              "width": 1200,
+              "height": 1150
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_047_1600w.webp",
+              "width": 1600,
+              "height": 1533
+            }
+          ]
+        },
+        {
+          "id": "gallery_048",
+          "original": "assets/Gallery/gallery_048.jpg",
+          "alt": "Photography Gallery study, frame 048 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_048_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_048_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_048_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_049",
+          "original": "assets/Gallery/gallery_049.jpg",
+          "alt": "Photography Gallery study, frame 049 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_049_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_049_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_049_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_050",
+          "original": "assets/Gallery/gallery_050.jpg",
+          "alt": "Photography Gallery study, frame 050 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_050_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_050_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_050_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_051",
+          "original": "assets/Gallery/gallery_051.jpg",
+          "alt": "Photography Gallery study, frame 051 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_051_800w.webp",
+              "width": 800,
+              "height": 662
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_051_1200w.webp",
+              "width": 1200,
+              "height": 993
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_051_1600w.webp",
+              "width": 1600,
+              "height": 1324
+            }
+          ]
+        },
+        {
+          "id": "gallery_052",
+          "original": "assets/Gallery/gallery_052.jpg",
+          "alt": "Photography Gallery study, frame 052 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_052_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_052_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_052_1600w.webp",
+              "width": 1597,
+              "height": 2395
+            }
+          ]
+        },
+        {
+          "id": "gallery_053",
+          "original": "assets/Gallery/gallery_053.jpg",
+          "alt": "Photography Gallery study, frame 053 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_053_800w.webp",
+              "width": 800,
+              "height": 1422
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_053_1200w.webp",
+              "width": 1200,
+              "height": 2133
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_053_1600w.webp",
+              "width": 1600,
+              "height": 2844
+            }
+          ]
+        },
+        {
+          "id": "gallery_054",
+          "original": "assets/Gallery/gallery_054.jpg",
+          "alt": "Photography Gallery study, frame 054 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_054_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_054_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_054_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "gallery_055",
+          "original": "assets/Gallery/gallery_055.jpg",
+          "alt": "Photography Gallery study, frame 055 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_055_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_055_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_055_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_056",
+          "original": "assets/Gallery/gallery_056.jpg",
+          "alt": "Photography Gallery study, frame 056 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_056_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_056_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_056_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_057",
+          "original": "assets/Gallery/gallery_057.jpg",
+          "alt": "Photography Gallery study, frame 057 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_057_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_057_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_057_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_058",
+          "original": "assets/Gallery/gallery_058.jpg",
+          "alt": "Photography Gallery study, frame 058 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_058_800w.webp",
+              "width": 800,
+              "height": 1287
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_058_1200w.webp",
+              "width": 1200,
+              "height": 1931
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_058_1600w.webp",
+              "width": 1600,
+              "height": 2575
+            }
+          ]
+        },
+        {
+          "id": "gallery_059",
+          "original": "assets/Gallery/gallery_059.jpg",
+          "alt": "Photography Gallery study, frame 059 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_059_800w.webp",
+              "width": 800,
+              "height": 1298
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_059_1200w.webp",
+              "width": 1200,
+              "height": 1947
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_059_1600w.webp",
+              "width": 1262,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_060",
+          "original": "assets/Gallery/gallery_060.jpg",
+          "alt": "Photography Gallery study, frame 060 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_060_800w.webp",
+              "width": 800,
+              "height": 512
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_060_1200w.webp",
+              "width": 1200,
+              "height": 768
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_060_1600w.webp",
+              "width": 1600,
+              "height": 1025
+            }
+          ]
+        },
+        {
+          "id": "gallery_061",
+          "original": "assets/Gallery/gallery_061.jpg",
+          "alt": "Photography Gallery study, frame 061 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_061_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_061_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_061_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_062",
+          "original": "assets/Gallery/gallery_062.jpg",
+          "alt": "Photography Gallery study, frame 062 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_062_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_062_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_062_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "gallery_063",
+          "original": "assets/Gallery/gallery_063.jpg",
+          "alt": "Photography Gallery study, frame 063 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_063_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_063_1200w.webp",
+              "width": 1200,
+              "height": 799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_063_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_064",
+          "original": "assets/Gallery/gallery_064.jpg",
+          "alt": "Photography Gallery study, frame 064 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_064_800w.webp",
+              "width": 800,
+              "height": 1422
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_064_1200w.webp",
+              "width": 1200,
+              "height": 2133
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_064_1600w.webp",
+              "width": 1600,
+              "height": 2844
+            }
+          ]
+        },
+        {
+          "id": "gallery_065",
+          "original": "assets/Gallery/gallery_065.jpg",
+          "alt": "Photography Gallery study, frame 065 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_065_800w.webp",
+              "width": 800,
+              "height": 1422
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_065_1200w.webp",
+              "width": 1152,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_066",
+          "original": "assets/Gallery/gallery_066.jpg",
+          "alt": "Photography Gallery study, frame 066 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_066_800w.webp",
+              "width": 800,
+              "height": 534
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_066_1200w.webp",
+              "width": 1200,
+              "height": 801
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_066_1600w.webp",
+              "width": 1600,
+              "height": 1068
+            }
+          ]
+        },
+        {
+          "id": "gallery_067",
+          "original": "assets/Gallery/gallery_067.jpg",
+          "alt": "Photography Gallery study, frame 067 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_067_800w.webp",
+              "width": 800,
+              "height": 1249
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_067_1200w.webp",
+              "width": 1200,
+              "height": 1874
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_067_1600w.webp",
+              "width": 1311,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_068",
+          "original": "assets/Gallery/gallery_068.jpg",
+          "alt": "Photography Gallery study, frame 068 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_068_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_068_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_068_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "gallery_069",
+          "original": "assets/Gallery/gallery_069.jpg",
+          "alt": "Photography Gallery study, frame 069 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_069_800w.webp",
+              "width": 800,
+              "height": 1000
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_069_1200w.webp",
+              "width": 1200,
+              "height": 1500
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_069_1600w.webp",
+              "width": 1600,
+              "height": 2000
+            }
+          ]
+        },
+        {
+          "id": "gallery_070",
+          "original": "assets/Gallery/gallery_070.jpg",
+          "alt": "Photography Gallery study, frame 070 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_070_800w.webp",
+              "width": 800,
+              "height": 534
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_070_1200w.webp",
+              "width": 1200,
+              "height": 801
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_070_1600w.webp",
+              "width": 1600,
+              "height": 1068
+            }
+          ]
+        },
+        {
+          "id": "gallery_071",
+          "original": "assets/Gallery/gallery_071.jpg",
+          "alt": "Photography Gallery study, frame 071 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_071_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_071_1200w.webp",
+              "width": 1200,
+              "height": 799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_071_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_072",
+          "original": "assets/Gallery/gallery_072.jpg",
+          "alt": "Photography Gallery study, frame 072 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_072_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_072_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_072_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_073",
+          "original": "assets/Gallery/gallery_073.jpg",
+          "alt": "Photography Gallery study, frame 073 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_073_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_073_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_073_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "gallery_074",
+          "original": "assets/Gallery/gallery_074.jpg",
+          "alt": "Photography Gallery study, frame 074 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_074_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_074_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_074_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_075",
+          "original": "assets/Gallery/gallery_075.jpg",
+          "alt": "Photography Gallery study, frame 075 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_075_800w.webp",
+              "width": 800,
+              "height": 1099
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_075_1200w.webp",
+              "width": 1200,
+              "height": 1649
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_075_1600w.webp",
+              "width": 1600,
+              "height": 2199
+            }
+          ]
+        },
+        {
+          "id": "gallery_076",
+          "original": "assets/Gallery/gallery_076.jpg",
+          "alt": "Photography Gallery study, frame 076 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_076_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_076_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_076_1600w.webp",
+              "width": 1600,
+              "height": 2133
+            }
+          ]
+        },
+        {
+          "id": "gallery_077",
+          "original": "assets/Gallery/gallery_077.jpg",
+          "alt": "Photography Gallery study, frame 077 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_077_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_077_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_077_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "gallery_078",
+          "original": "assets/Gallery/gallery_078.jpg",
+          "alt": "Photography Gallery study, frame 078 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_078_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_078_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_078_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_079",
+          "original": "assets/Gallery/gallery_079.jpg",
+          "alt": "Photography Gallery study, frame 079 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_079_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_079_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_079_1600w.webp",
+              "width": 1536,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "gallery_080",
+          "original": "assets/Gallery/gallery_080.jpg",
+          "alt": "Photography Gallery study, frame 080 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_080_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_080_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_080_1600w.webp",
+              "width": 1542,
+              "height": 2056
+            }
+          ]
+        },
+        {
+          "id": "gallery_081",
+          "original": "assets/Gallery/gallery_081.jpg",
+          "alt": "Photography Gallery study, frame 081 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_081_800w.webp",
+              "width": 800,
+              "height": 532
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_081_1200w.webp",
+              "width": 1200,
+              "height": 799
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_081_1600w.webp",
+              "width": 1600,
+              "height": 1065
+            }
+          ]
+        },
+        {
+          "id": "gallery_082",
+          "original": "assets/Gallery/gallery_082.jpg",
+          "alt": "Photography Gallery study, frame 082 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_082_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_082_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_082_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "gallery_083",
+          "original": "assets/Gallery/gallery_083.jpg",
+          "alt": "Photography Gallery study, frame 083 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_083_800w.webp",
+              "width": 800,
+              "height": 531
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_083_1200w.webp",
+              "width": 1200,
+              "height": 796
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_083_1600w.webp",
+              "width": 1600,
+              "height": 1062
+            }
+          ]
+        },
+        {
+          "id": "gallery_084",
+          "original": "assets/Gallery/gallery_084.jpg",
+          "alt": "Photography Gallery study, frame 084 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Gallery/optimized/gallery_084_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_084_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Gallery/optimized/gallery_084_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        }
+      ]
+    },
+    "animals": {
+      "label": "Wildlife",
+      "route": "animals.html",
+      "images": [
+        {
+          "id": "animals_001",
+          "original": "assets/animals/animals_001.jpg",
+          "alt": "Ginger cat looking back from a patterned cushion",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_001_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_001_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_001_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_002",
+          "original": "assets/animals/animals_002.jpg",
+          "alt": "Wildlife study, frame 002 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_002_800w.webp",
+              "width": 800,
+              "height": 623
+            },
+            {
+              "src": "assets/animals/optimized/animals_002_1200w.webp",
+              "width": 1200,
+              "height": 934
+            },
+            {
+              "src": "assets/animals/optimized/animals_002_1600w.webp",
+              "width": 1600,
+              "height": 1246
+            }
+          ]
+        },
+        {
+          "id": "animals_003",
+          "original": "assets/animals/animals_003.jpg",
+          "alt": "Tabby cat watching from beneath a red boat",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_003_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_003_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_003_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_004",
+          "original": "assets/animals/animals_004.jpg",
+          "alt": "Wildlife study, frame 004 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_004_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/animals/optimized/animals_004_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/animals/optimized/animals_004_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "animals_005",
+          "original": "assets/animals/animals_005.jpg",
+          "alt": "White cat resting beside red fabric and a blue wall",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_005_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_005_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_005_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_006",
+          "original": "assets/animals/animals_006.jpg",
+          "alt": "Wildlife study, frame 006 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_006_800w.webp",
+              "width": 800,
+              "height": 1401
+            },
+            {
+              "src": "assets/animals/optimized/animals_006_1200w.webp",
+              "width": 1143,
+              "height": 2002
+            }
+          ]
+        },
+        {
+          "id": "animals_007",
+          "original": "assets/animals/animals_007.jpg",
+          "alt": "Close view of a butterfly with droplets on its antennae",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_007_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_007_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_007_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_008",
+          "original": "assets/animals/animals_008.jpg",
+          "alt": "Wildlife study, frame 008 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_008_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/animals/optimized/animals_008_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/animals/optimized/animals_008_1600w.webp",
+              "width": 1600,
+              "height": 2133
+            }
+          ]
+        },
+        {
+          "id": "animals_009",
+          "original": "assets/animals/animals_009.jpg",
+          "alt": "Wildlife study, frame 009 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_009_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_009_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_009_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_010",
+          "original": "assets/animals/animals_010.jpg",
+          "alt": "Wildlife study, frame 010 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_010_800w.webp",
+              "width": 800,
+              "height": 1296
+            },
+            {
+              "src": "assets/animals/optimized/animals_010_1200w.webp",
+              "width": 1200,
+              "height": 1945
+            },
+            {
+              "src": "assets/animals/optimized/animals_010_1600w.webp",
+              "width": 1600,
+              "height": 2593
+            }
+          ]
+        },
+        {
+          "id": "animals_011",
+          "original": "assets/animals/animals_011.jpg",
+          "alt": "Wildlife study, frame 011 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_011_800w.webp",
+              "width": 800,
+              "height": 671
+            },
+            {
+              "src": "assets/animals/optimized/animals_011_1200w.webp",
+              "width": 1200,
+              "height": 1007
+            },
+            {
+              "src": "assets/animals/optimized/animals_011_1600w.webp",
+              "width": 1600,
+              "height": 1343
+            }
+          ]
+        },
+        {
+          "id": "animals_012",
+          "original": "assets/animals/animals_012.jpg",
+          "alt": "Wildlife study, frame 012 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_012_800w.webp",
+              "width": 800,
+              "height": 537
+            },
+            {
+              "src": "assets/animals/optimized/animals_012_1200w.webp",
+              "width": 1200,
+              "height": 806
+            },
+            {
+              "src": "assets/animals/optimized/animals_012_1600w.webp",
+              "width": 1600,
+              "height": 1075
+            }
+          ]
+        },
+        {
+          "id": "animals_013",
+          "original": "assets/animals/animals_013.jpg",
+          "alt": "Wildlife study, frame 013 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_013_800w.webp",
+              "width": 800,
+              "height": 1212
+            },
+            {
+              "src": "assets/animals/optimized/animals_013_1200w.webp",
+              "width": 1200,
+              "height": 1819
+            },
+            {
+              "src": "assets/animals/optimized/animals_013_1600w.webp",
+              "width": 1326,
+              "height": 2010
+            }
+          ]
+        },
+        {
+          "id": "animals_014",
+          "original": "assets/animals/animals_014.jpg",
+          "alt": "Wildlife study, frame 014 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_014_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_014_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_014_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_015",
+          "original": "assets/animals/animals_015.jpg",
+          "alt": "Wildlife study, frame 015 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_015_800w.webp",
+              "width": 800,
+              "height": 614
+            },
+            {
+              "src": "assets/animals/optimized/animals_015_1200w.webp",
+              "width": 1200,
+              "height": 921
+            },
+            {
+              "src": "assets/animals/optimized/animals_015_1600w.webp",
+              "width": 1600,
+              "height": 1228
+            }
+          ]
+        },
+        {
+          "id": "animals_016",
+          "original": "assets/animals/animals_016.jpg",
+          "alt": "Wildlife study, frame 016 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_016_800w.webp",
+              "width": 800,
+              "height": 495
+            },
+            {
+              "src": "assets/animals/optimized/animals_016_1200w.webp",
+              "width": 1200,
+              "height": 743
+            },
+            {
+              "src": "assets/animals/optimized/animals_016_1600w.webp",
+              "width": 1600,
+              "height": 991
+            }
+          ]
+        },
+        {
+          "id": "animals_017",
+          "original": "assets/animals/animals_017.jpg",
+          "alt": "Wildlife study, frame 017 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_017_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_017_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_017_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_018",
+          "original": "assets/animals/animals_018.jpg",
+          "alt": "Wildlife study, frame 018 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_018_800w.webp",
+              "width": 800,
+              "height": 1201
+            },
+            {
+              "src": "assets/animals/optimized/animals_018_1200w.webp",
+              "width": 1200,
+              "height": 1801
+            },
+            {
+              "src": "assets/animals/optimized/animals_018_1600w.webp",
+              "width": 1364,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "animals_019",
+          "original": "assets/animals/animals_019.jpg",
+          "alt": "Wildlife study, frame 019 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_019_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/animals/optimized/animals_019_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/animals/optimized/animals_019_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "animals_020",
+          "original": "assets/animals/animals_020.jpg",
+          "alt": "Green parakeets among sunlit branches",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_020_800w.webp",
+              "width": 800,
+              "height": 667
+            },
+            {
+              "src": "assets/animals/optimized/animals_020_1200w.webp",
+              "width": 1200,
+              "height": 1001
+            },
+            {
+              "src": "assets/animals/optimized/animals_020_1600w.webp",
+              "width": 1600,
+              "height": 1335
+            }
+          ]
+        },
+        {
+          "id": "animals_021",
+          "original": "assets/animals/animals_021.jpg",
+          "alt": "Wildlife study, frame 021 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_021_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_021_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_021_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_022",
+          "original": "assets/animals/animals_022.jpg",
+          "alt": "Wildlife study, frame 022 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_022_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_022_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_022_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_023",
+          "original": "assets/animals/animals_023.jpg",
+          "alt": "Wildlife study, frame 023 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_023_800w.webp",
+              "width": 800,
+              "height": 1075
+            },
+            {
+              "src": "assets/animals/optimized/animals_023_1200w.webp",
+              "width": 1200,
+              "height": 1612
+            },
+            {
+              "src": "assets/animals/optimized/animals_023_1600w.webp",
+              "width": 1600,
+              "height": 2150
+            }
+          ]
+        },
+        {
+          "id": "animals_024",
+          "original": "assets/animals/animals_024.jpg",
+          "alt": "Wildlife study, frame 024 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_024_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_024_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_024_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_025",
+          "original": "assets/animals/animals_025.jpg",
+          "alt": "Wildlife study, frame 025 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_025_800w.webp",
+              "width": 800,
+              "height": 1249
+            },
+            {
+              "src": "assets/animals/optimized/animals_025_1200w.webp",
+              "width": 1200,
+              "height": 1874
+            },
+            {
+              "src": "assets/animals/optimized/animals_025_1600w.webp",
+              "width": 1311,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "animals_026",
+          "original": "assets/animals/animals_026.jpg",
+          "alt": "Wildlife study, frame 026 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_026_800w.webp",
+              "width": 800,
+              "height": 493
+            },
+            {
+              "src": "assets/animals/optimized/animals_026_1200w.webp",
+              "width": 1200,
+              "height": 740
+            },
+            {
+              "src": "assets/animals/optimized/animals_026_1600w.webp",
+              "width": 1600,
+              "height": 987
+            }
+          ]
+        },
+        {
+          "id": "animals_027",
+          "original": "assets/animals/animals_027.jpg",
+          "alt": "Wildlife study, frame 027 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_027_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_027_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_027_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_028",
+          "original": "assets/animals/animals_028.jpg",
+          "alt": "Wildlife study, frame 028 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_028_800w.webp",
+              "width": 800,
+              "height": 1049
+            },
+            {
+              "src": "assets/animals/optimized/animals_028_1200w.webp",
+              "width": 1200,
+              "height": 1574
+            },
+            {
+              "src": "assets/animals/optimized/animals_028_1600w.webp",
+              "width": 1537,
+              "height": 2017
+            }
+          ]
+        },
+        {
+          "id": "animals_029",
+          "original": "assets/animals/animals_029.jpg",
+          "alt": "Wildlife study, frame 029 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_029_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/animals/optimized/animals_029_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/animals/optimized/animals_029_1600w.webp",
+              "width": 1600,
+              "height": 2133
+            }
+          ]
+        },
+        {
+          "id": "animals_030",
+          "original": "assets/animals/animals_030.jpg",
+          "alt": "Wildlife study, frame 030 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_030_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_030_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_030_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_031",
+          "original": "assets/animals/animals_031.jpg",
+          "alt": "Wildlife study, frame 031 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_031_800w.webp",
+              "width": 800,
+              "height": 1061
+            },
+            {
+              "src": "assets/animals/optimized/animals_031_1200w.webp",
+              "width": 1200,
+              "height": 1592
+            },
+            {
+              "src": "assets/animals/optimized/animals_031_1600w.webp",
+              "width": 1524,
+              "height": 2022
+            }
+          ]
+        },
+        {
+          "id": "animals_032",
+          "original": "assets/animals/animals_032.jpg",
+          "alt": "Wildlife study, frame 032 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_032_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_032_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_032_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_033",
+          "original": "assets/animals/animals_033.jpg",
+          "alt": "Wildlife study, frame 033 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_033_800w.webp",
+              "width": 800,
+              "height": 1167
+            },
+            {
+              "src": "assets/animals/optimized/animals_033_1200w.webp",
+              "width": 1200,
+              "height": 1751
+            },
+            {
+              "src": "assets/animals/optimized/animals_033_1600w.webp",
+              "width": 1600,
+              "height": 2335
+            }
+          ]
+        },
+        {
+          "id": "animals_034",
+          "original": "assets/animals/animals_034.jpg",
+          "alt": "Wildlife study, frame 034 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_034_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/animals/optimized/animals_034_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/animals/optimized/animals_034_1600w.webp",
+              "width": 1536,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "animals_035",
+          "original": "assets/animals/animals_035.jpg",
+          "alt": "Wildlife study, frame 035 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_035_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_035_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_035_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "animals_036",
+          "original": "assets/animals/animals_036.jpg",
+          "alt": "Wildlife study, frame 036 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_036_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_036_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_036_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_037",
+          "original": "assets/animals/animals_037.jpg",
+          "alt": "Wildlife study, frame 037 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_037_800w.webp",
+              "width": 800,
+              "height": 585
+            },
+            {
+              "src": "assets/animals/optimized/animals_037_1200w.webp",
+              "width": 1200,
+              "height": 878
+            },
+            {
+              "src": "assets/animals/optimized/animals_037_1600w.webp",
+              "width": 1600,
+              "height": 1171
+            }
+          ]
+        },
+        {
+          "id": "animals_038",
+          "original": "assets/animals/animals_038.jpg",
+          "alt": "Wildlife study, frame 038 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_038_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_038_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_038_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_039",
+          "original": "assets/animals/animals_039.jpg",
+          "alt": "Wildlife study, frame 039 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_039_800w.webp",
+              "width": 800,
+              "height": 509
+            },
+            {
+              "src": "assets/animals/optimized/animals_039_1200w.webp",
+              "width": 1200,
+              "height": 763
+            },
+            {
+              "src": "assets/animals/optimized/animals_039_1600w.webp",
+              "width": 1600,
+              "height": 1018
+            }
+          ]
+        },
+        {
+          "id": "animals_040",
+          "original": "assets/animals/animals_040.jpg",
+          "alt": "Wildlife study, frame 040 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_040_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_040_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/animals/optimized/animals_040_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "animals_041",
+          "original": "assets/animals/animals_041.jpg",
+          "alt": "Wildlife study, frame 041 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_041_800w.webp",
+              "width": 800,
+              "height": 472
+            },
+            {
+              "src": "assets/animals/optimized/animals_041_1200w.webp",
+              "width": 1200,
+              "height": 708
+            },
+            {
+              "src": "assets/animals/optimized/animals_041_1600w.webp",
+              "width": 1600,
+              "height": 944
+            }
+          ]
+        },
+        {
+          "id": "animals_042",
+          "original": "assets/animals/animals_042.jpg",
+          "alt": "Wildlife study, frame 042 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_042_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_042_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_042_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_043",
+          "original": "assets/animals/animals_043.jpg",
+          "alt": "Wildlife study, frame 043 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_043_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_043_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_043_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_044",
+          "original": "assets/animals/animals_044.jpg",
+          "alt": "Wildlife study, frame 044 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_044_800w.webp",
+              "width": 800,
+              "height": 1071
+            },
+            {
+              "src": "assets/animals/optimized/animals_044_1200w.webp",
+              "width": 1200,
+              "height": 1607
+            },
+            {
+              "src": "assets/animals/optimized/animals_044_1600w.webp",
+              "width": 1523,
+              "height": 2040
+            }
+          ]
+        },
+        {
+          "id": "animals_045",
+          "original": "assets/animals/animals_045.jpg",
+          "alt": "Wildlife study, frame 045 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_045_800w.webp",
+              "width": 800,
+              "height": 538
+            },
+            {
+              "src": "assets/animals/optimized/animals_045_1200w.webp",
+              "width": 1200,
+              "height": 807
+            },
+            {
+              "src": "assets/animals/optimized/animals_045_1600w.webp",
+              "width": 1600,
+              "height": 1076
+            }
+          ]
+        },
+        {
+          "id": "animals_046",
+          "original": "assets/animals/animals_046.jpg",
+          "alt": "Wildlife study, frame 046 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_046_800w.webp",
+              "width": 800,
+              "height": 355
+            },
+            {
+              "src": "assets/animals/optimized/animals_046_1200w.webp",
+              "width": 1200,
+              "height": 533
+            },
+            {
+              "src": "assets/animals/optimized/animals_046_1600w.webp",
+              "width": 1600,
+              "height": 711
+            }
+          ]
+        },
+        {
+          "id": "animals_047",
+          "original": "assets/animals/animals_047.jpg",
+          "alt": "Wildlife study, frame 047 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_047_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/animals/optimized/animals_047_1200w.webp",
+              "width": 1200,
+              "height": 1599
+            },
+            {
+              "src": "assets/animals/optimized/animals_047_1600w.webp",
+              "width": 1600,
+              "height": 2132
+            }
+          ]
+        },
+        {
+          "id": "animals_048",
+          "original": "assets/animals/animals_048.jpg",
+          "alt": "Wildlife study, frame 048 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_048_800w.webp",
+              "width": 800,
+              "height": 396
+            },
+            {
+              "src": "assets/animals/optimized/animals_048_1200w.webp",
+              "width": 1200,
+              "height": 595
+            },
+            {
+              "src": "assets/animals/optimized/animals_048_1600w.webp",
+              "width": 1600,
+              "height": 793
+            }
+          ]
+        },
+        {
+          "id": "animals_049",
+          "original": "assets/animals/animals_049.jpg",
+          "alt": "Wildlife study, frame 049 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_049_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/animals/optimized/animals_049_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/animals/optimized/animals_049_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "animals_050",
+          "original": "assets/animals/animals_050.jpg",
+          "alt": "Wildlife study, frame 050 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_050_800w.webp",
+              "width": 800,
+              "height": 450
+            },
+            {
+              "src": "assets/animals/optimized/animals_050_1200w.webp",
+              "width": 1200,
+              "height": 675
+            },
+            {
+              "src": "assets/animals/optimized/animals_050_1600w.webp",
+              "width": 1600,
+              "height": 900
+            }
+          ]
+        },
+        {
+          "id": "animals_051",
+          "original": "assets/animals/animals_051.jpg",
+          "alt": "Wildlife study, frame 051 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/animals/optimized/animals_051_800w.webp",
+              "width": 800,
+              "height": 704
+            },
+            {
+              "src": "assets/animals/optimized/animals_051_1200w.webp",
+              "width": 1200,
+              "height": 1056
+            },
+            {
+              "src": "assets/animals/optimized/animals_051_1600w.webp",
+              "width": 1600,
+              "height": 1409
+            }
+          ]
+        }
+      ]
+    },
+    "cars": {
+      "label": "Cars",
+      "route": "cars.html",
+      "images": [
+        {
+          "id": "cars_001",
+          "original": "assets/cars/cars_001.jpg",
+          "alt": "Black sports car under warm garage lights",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_001_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_001_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_001_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_002",
+          "original": "assets/cars/cars_002.jpg",
+          "alt": "Cars study, frame 002 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_002_800w.webp",
+              "width": 800,
+              "height": 568
+            },
+            {
+              "src": "assets/cars/optimized/cars_002_1200w.webp",
+              "width": 1200,
+              "height": 853
+            },
+            {
+              "src": "assets/cars/optimized/cars_002_1600w.webp",
+              "width": 1600,
+              "height": 1137
+            }
+          ]
+        },
+        {
+          "id": "cars_003",
+          "original": "assets/cars/cars_003.jpg",
+          "alt": "Cars study, frame 003 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_003_800w.webp",
+              "width": 800,
+              "height": 1147
+            },
+            {
+              "src": "assets/cars/optimized/cars_003_1200w.webp",
+              "width": 1200,
+              "height": 1721
+            },
+            {
+              "src": "assets/cars/optimized/cars_003_1600w.webp",
+              "width": 1600,
+              "height": 2294
+            }
+          ]
+        },
+        {
+          "id": "cars_004",
+          "original": "assets/cars/cars_004.jpg",
+          "alt": "Cars study, frame 004 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_004_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_004_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_004_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_005",
+          "original": "assets/cars/cars_005.jpg",
+          "alt": "Rear of a vintage Fiat in a dimly lit garage",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_005_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_005_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_005_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_006",
+          "original": "assets/cars/cars_006.jpg",
+          "alt": "Cars study, frame 006 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_006_800w.webp",
+              "width": 800,
+              "height": 584
+            },
+            {
+              "src": "assets/cars/optimized/cars_006_1200w.webp",
+              "width": 1200,
+              "height": 876
+            },
+            {
+              "src": "assets/cars/optimized/cars_006_1600w.webp",
+              "width": 1600,
+              "height": 1169
+            }
+          ]
+        },
+        {
+          "id": "cars_007",
+          "original": "assets/cars/cars_007.jpg",
+          "alt": "Cars study, frame 007 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_007_800w.webp",
+              "width": 800,
+              "height": 1050
+            },
+            {
+              "src": "assets/cars/optimized/cars_007_1200w.webp",
+              "width": 1200,
+              "height": 1575
+            },
+            {
+              "src": "assets/cars/optimized/cars_007_1600w.webp",
+              "width": 1600,
+              "height": 2101
+            }
+          ]
+        },
+        {
+          "id": "cars_008",
+          "original": "assets/cars/cars_008.jpg",
+          "alt": "Cars study, frame 008 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_008_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_008_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_008_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_009",
+          "original": "assets/cars/cars_009.jpg",
+          "alt": "Cars study, frame 009 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_009_800w.webp",
+              "width": 800,
+              "height": 584
+            },
+            {
+              "src": "assets/cars/optimized/cars_009_1200w.webp",
+              "width": 1200,
+              "height": 876
+            },
+            {
+              "src": "assets/cars/optimized/cars_009_1600w.webp",
+              "width": 1600,
+              "height": 1168
+            }
+          ]
+        },
+        {
+          "id": "cars_010",
+          "original": "assets/cars/cars_010.jpg",
+          "alt": "Cars study, frame 010 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_010_800w.webp",
+              "width": 800,
+              "height": 1149
+            },
+            {
+              "src": "assets/cars/optimized/cars_010_1200w.webp",
+              "width": 1200,
+              "height": 1724
+            },
+            {
+              "src": "assets/cars/optimized/cars_010_1600w.webp",
+              "width": 1600,
+              "height": 2299
+            }
+          ]
+        },
+        {
+          "id": "cars_011",
+          "original": "assets/cars/cars_011.jpg",
+          "alt": "Cars study, frame 011 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_011_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/cars/optimized/cars_011_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/cars/optimized/cars_011_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "cars_012",
+          "original": "assets/cars/cars_012.jpg",
+          "alt": "Cars study, frame 012 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_012_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/cars/optimized/cars_012_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/cars/optimized/cars_012_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_013",
+          "original": "assets/cars/cars_013.jpg",
+          "alt": "Cars study, frame 013 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_013_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_013_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_013_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_014",
+          "original": "assets/cars/cars_014.jpg",
+          "alt": "Cars study, frame 014 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_014_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/cars/optimized/cars_014_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/cars/optimized/cars_014_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_015",
+          "original": "assets/cars/cars_015.jpg",
+          "alt": "Cars study, frame 015 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_015_800w.webp",
+              "width": 800,
+              "height": 903
+            },
+            {
+              "src": "assets/cars/optimized/cars_015_1200w.webp",
+              "width": 1200,
+              "height": 1355
+            },
+            {
+              "src": "assets/cars/optimized/cars_015_1600w.webp",
+              "width": 1600,
+              "height": 1806
+            }
+          ]
+        },
+        {
+          "id": "cars_016",
+          "original": "assets/cars/cars_016.jpg",
+          "alt": "Cars study, frame 016 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_016_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_016_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_016_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_017",
+          "original": "assets/cars/cars_017.jpg",
+          "alt": "Cars study, frame 017 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_017_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_017_1200w.webp",
+              "width": 1200,
+              "height": 799
+            },
+            {
+              "src": "assets/cars/optimized/cars_017_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_018",
+          "original": "assets/cars/cars_018.jpg",
+          "alt": "Cars study, frame 018 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_018_800w.webp",
+              "width": 800,
+              "height": 495
+            },
+            {
+              "src": "assets/cars/optimized/cars_018_1200w.webp",
+              "width": 1200,
+              "height": 743
+            },
+            {
+              "src": "assets/cars/optimized/cars_018_1600w.webp",
+              "width": 1600,
+              "height": 990
+            }
+          ]
+        },
+        {
+          "id": "cars_019",
+          "original": "assets/cars/cars_019.jpg",
+          "alt": "Cars study, frame 019 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_019_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_019_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_019_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_020",
+          "original": "assets/cars/cars_020.jpg",
+          "alt": "Cars study, frame 020 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_020_800w.webp",
+              "width": 800,
+              "height": 478
+            },
+            {
+              "src": "assets/cars/optimized/cars_020_1200w.webp",
+              "width": 1200,
+              "height": 717
+            },
+            {
+              "src": "assets/cars/optimized/cars_020_1600w.webp",
+              "width": 1600,
+              "height": 956
+            }
+          ]
+        },
+        {
+          "id": "cars_021",
+          "original": "assets/cars/cars_021.jpg",
+          "alt": "Cars study, frame 021 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_021_800w.webp",
+              "width": 800,
+              "height": 453
+            },
+            {
+              "src": "assets/cars/optimized/cars_021_1200w.webp",
+              "width": 1200,
+              "height": 680
+            },
+            {
+              "src": "assets/cars/optimized/cars_021_1600w.webp",
+              "width": 1600,
+              "height": 907
+            }
+          ]
+        },
+        {
+          "id": "cars_022",
+          "original": "assets/cars/cars_022.jpg",
+          "alt": "Cars study, frame 022 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_022_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_022_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_022_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_023",
+          "original": "assets/cars/cars_023.jpg",
+          "alt": "Cars study, frame 023 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_023_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_023_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_023_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_024",
+          "original": "assets/cars/cars_024.jpg",
+          "alt": "Cars study, frame 024 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_024_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_024_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_024_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_025",
+          "original": "assets/cars/cars_025.jpg",
+          "alt": "Cars study, frame 025 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_025_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_025_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_025_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_026",
+          "original": "assets/cars/cars_026.jpg",
+          "alt": "Cars study, frame 026 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_026_800w.webp",
+              "width": 800,
+              "height": 430
+            },
+            {
+              "src": "assets/cars/optimized/cars_026_1200w.webp",
+              "width": 1200,
+              "height": 645
+            },
+            {
+              "src": "assets/cars/optimized/cars_026_1600w.webp",
+              "width": 1600,
+              "height": 860
+            }
+          ]
+        },
+        {
+          "id": "cars_027",
+          "original": "assets/cars/cars_027.jpg",
+          "alt": "Cars study, frame 027 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_027_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_027_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_027_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_028",
+          "original": "assets/cars/cars_028.jpg",
+          "alt": "Cars study, frame 028 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_028_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_028_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_028_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_029",
+          "original": "assets/cars/cars_029.jpg",
+          "alt": "Cars study, frame 029 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_029_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_029_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_029_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_030",
+          "original": "assets/cars/cars_030.jpg",
+          "alt": "Cars study, frame 030 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_030_800w.webp",
+              "width": 800,
+              "height": 387
+            },
+            {
+              "src": "assets/cars/optimized/cars_030_1200w.webp",
+              "width": 1200,
+              "height": 581
+            },
+            {
+              "src": "assets/cars/optimized/cars_030_1600w.webp",
+              "width": 1600,
+              "height": 774
+            }
+          ]
+        },
+        {
+          "id": "cars_031",
+          "original": "assets/cars/cars_031.jpg",
+          "alt": "Cars study, frame 031 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_031_800w.webp",
+              "width": 800,
+              "height": 990
+            },
+            {
+              "src": "assets/cars/optimized/cars_031_1200w.webp",
+              "width": 1200,
+              "height": 1485
+            },
+            {
+              "src": "assets/cars/optimized/cars_031_1600w.webp",
+              "width": 1600,
+              "height": 1980
+            }
+          ]
+        },
+        {
+          "id": "cars_032",
+          "original": "assets/cars/cars_032.jpg",
+          "alt": "Cars study, frame 032 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_032_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/cars/optimized/cars_032_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/cars/optimized/cars_032_1600w.webp",
+              "width": 1366,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_033",
+          "original": "assets/cars/cars_033.jpg",
+          "alt": "Cars study, frame 033 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_033_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_033_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_033_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_034",
+          "original": "assets/cars/cars_034.jpg",
+          "alt": "Cars study, frame 034 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_034_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/cars/optimized/cars_034_1200w.webp",
+              "width": 1200,
+              "height": 1600
+            },
+            {
+              "src": "assets/cars/optimized/cars_034_1600w.webp",
+              "width": 1536,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_035",
+          "original": "assets/cars/cars_035.jpg",
+          "alt": "Cars study, frame 035 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_035_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_035_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_035_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_036",
+          "original": "assets/cars/cars_036.jpg",
+          "alt": "Cars study, frame 036 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_036_800w.webp",
+              "width": 800,
+              "height": 585
+            },
+            {
+              "src": "assets/cars/optimized/cars_036_1200w.webp",
+              "width": 1200,
+              "height": 877
+            },
+            {
+              "src": "assets/cars/optimized/cars_036_1600w.webp",
+              "width": 1600,
+              "height": 1170
+            }
+          ]
+        },
+        {
+          "id": "cars_037",
+          "original": "assets/cars/cars_037.jpg",
+          "alt": "Cars study, frame 037 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_037_800w.webp",
+              "width": 800,
+              "height": 1024
+            },
+            {
+              "src": "assets/cars/optimized/cars_037_1200w.webp",
+              "width": 1200,
+              "height": 1536
+            },
+            {
+              "src": "assets/cars/optimized/cars_037_1600w.webp",
+              "width": 1600,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_038",
+          "original": "assets/cars/cars_038.jpg",
+          "alt": "Cars study, frame 038 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_038_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_038_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_038_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_039",
+          "original": "assets/cars/cars_039.jpg",
+          "alt": "Cars study, frame 039 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_039_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_039_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_039_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_040",
+          "original": "assets/cars/cars_040.jpg",
+          "alt": "Cars study, frame 040 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_040_800w.webp",
+              "width": 800,
+              "height": 1305
+            },
+            {
+              "src": "assets/cars/optimized/cars_040_1200w.webp",
+              "width": 1200,
+              "height": 1957
+            },
+            {
+              "src": "assets/cars/optimized/cars_040_1600w.webp",
+              "width": 1600,
+              "height": 2610
+            }
+          ]
+        },
+        {
+          "id": "cars_041",
+          "original": "assets/cars/cars_041.jpg",
+          "alt": "Cars study, frame 041 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_041_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_041_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_041_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_042",
+          "original": "assets/cars/cars_042.jpg",
+          "alt": "Cars study, frame 042 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_042_800w.webp",
+              "width": 800,
+              "height": 1211
+            },
+            {
+              "src": "assets/cars/optimized/cars_042_1200w.webp",
+              "width": 1200,
+              "height": 1817
+            },
+            {
+              "src": "assets/cars/optimized/cars_042_1600w.webp",
+              "width": 1600,
+              "height": 2423
+            }
+          ]
+        },
+        {
+          "id": "cars_043",
+          "original": "assets/cars/cars_043.jpg",
+          "alt": "Cars study, frame 043 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_043_800w.webp",
+              "width": 800,
+              "height": 580
+            },
+            {
+              "src": "assets/cars/optimized/cars_043_1200w.webp",
+              "width": 1200,
+              "height": 870
+            },
+            {
+              "src": "assets/cars/optimized/cars_043_1600w.webp",
+              "width": 1600,
+              "height": 1160
+            }
+          ]
+        },
+        {
+          "id": "cars_044",
+          "original": "assets/cars/cars_044.jpg",
+          "alt": "Cars study, frame 044 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_044_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_044_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_044_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_045",
+          "original": "assets/cars/cars_045.jpg",
+          "alt": "Cars study, frame 045 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_045_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_045_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_045_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_046",
+          "original": "assets/cars/cars_046.jpg",
+          "alt": "Cars study, frame 046 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_046_800w.webp",
+              "width": 800,
+              "height": 961
+            },
+            {
+              "src": "assets/cars/optimized/cars_046_1200w.webp",
+              "width": 1200,
+              "height": 1442
+            },
+            {
+              "src": "assets/cars/optimized/cars_046_1600w.webp",
+              "width": 1600,
+              "height": 1922
+            }
+          ]
+        },
+        {
+          "id": "cars_047",
+          "original": "assets/cars/cars_047.jpg",
+          "alt": "Cars study, frame 047 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_047_800w.webp",
+              "width": 800,
+              "height": 519
+            },
+            {
+              "src": "assets/cars/optimized/cars_047_1200w.webp",
+              "width": 1200,
+              "height": 779
+            },
+            {
+              "src": "assets/cars/optimized/cars_047_1600w.webp",
+              "width": 1600,
+              "height": 1039
+            }
+          ]
+        },
+        {
+          "id": "cars_048",
+          "original": "assets/cars/cars_048.jpg",
+          "alt": "Cars study, frame 048 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_048_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_048_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_048_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_049",
+          "original": "assets/cars/cars_049.jpg",
+          "alt": "Cars study, frame 049 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_049_800w.webp",
+              "width": 800,
+              "height": 1092
+            },
+            {
+              "src": "assets/cars/optimized/cars_049_1200w.webp",
+              "width": 1200,
+              "height": 1639
+            },
+            {
+              "src": "assets/cars/optimized/cars_049_1600w.webp",
+              "width": 1600,
+              "height": 2185
+            }
+          ]
+        },
+        {
+          "id": "cars_050",
+          "original": "assets/cars/cars_050.jpg",
+          "alt": "Cars study, frame 050 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_050_800w.webp",
+              "width": 800,
+              "height": 476
+            },
+            {
+              "src": "assets/cars/optimized/cars_050_1200w.webp",
+              "width": 1200,
+              "height": 714
+            },
+            {
+              "src": "assets/cars/optimized/cars_050_1600w.webp",
+              "width": 1600,
+              "height": 953
+            }
+          ]
+        },
+        {
+          "id": "cars_051",
+          "original": "assets/cars/cars_051.jpg",
+          "alt": "Cars study, frame 051 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_051_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/cars/optimized/cars_051_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/cars/optimized/cars_051_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "cars_052",
+          "original": "assets/cars/cars_052.jpg",
+          "alt": "Cars study, frame 052 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_052_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_052_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_052_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_053",
+          "original": "assets/cars/cars_053.jpg",
+          "alt": "Cars study, frame 053 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_053_800w.webp",
+              "width": 800,
+              "height": 1091
+            },
+            {
+              "src": "assets/cars/optimized/cars_053_1200w.webp",
+              "width": 1200,
+              "height": 1636
+            },
+            {
+              "src": "assets/cars/optimized/cars_053_1600w.webp",
+              "width": 1600,
+              "height": 2182
+            }
+          ]
+        },
+        {
+          "id": "cars_054",
+          "original": "assets/cars/cars_054.jpg",
+          "alt": "Cars study, frame 054 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_054_800w.webp",
+              "width": 800,
+              "height": 556
+            },
+            {
+              "src": "assets/cars/optimized/cars_054_1200w.webp",
+              "width": 1200,
+              "height": 834
+            },
+            {
+              "src": "assets/cars/optimized/cars_054_1600w.webp",
+              "width": 1600,
+              "height": 1112
+            }
+          ]
+        },
+        {
+          "id": "cars_055",
+          "original": "assets/cars/cars_055.jpg",
+          "alt": "Cars study, frame 055 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_055_800w.webp",
+              "width": 800,
+              "height": 406
+            },
+            {
+              "src": "assets/cars/optimized/cars_055_1200w.webp",
+              "width": 1200,
+              "height": 609
+            },
+            {
+              "src": "assets/cars/optimized/cars_055_1600w.webp",
+              "width": 1600,
+              "height": 812
+            }
+          ]
+        },
+        {
+          "id": "cars_056",
+          "original": "assets/cars/cars_056.jpg",
+          "alt": "Cars study, frame 056 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_056_800w.webp",
+              "width": 800,
+              "height": 1051
+            },
+            {
+              "src": "assets/cars/optimized/cars_056_1200w.webp",
+              "width": 1200,
+              "height": 1577
+            },
+            {
+              "src": "assets/cars/optimized/cars_056_1600w.webp",
+              "width": 1558,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_057",
+          "original": "assets/cars/cars_057.jpg",
+          "alt": "Cars study, frame 057 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_057_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_057_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_057_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_058",
+          "original": "assets/cars/cars_058.jpg",
+          "alt": "Cars study, frame 058 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_058_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_058_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_058_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_059",
+          "original": "assets/cars/cars_059.jpg",
+          "alt": "Cars study, frame 059 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_059_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_059_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_059_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_060",
+          "original": "assets/cars/cars_060.jpg",
+          "alt": "Cars study, frame 060 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_060_800w.webp",
+              "width": 800,
+              "height": 1050
+            },
+            {
+              "src": "assets/cars/optimized/cars_060_1200w.webp",
+              "width": 1200,
+              "height": 1575
+            },
+            {
+              "src": "assets/cars/optimized/cars_060_1600w.webp",
+              "width": 1560,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_061",
+          "original": "assets/cars/cars_061.jpg",
+          "alt": "Cars study, frame 061 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_061_800w.webp",
+              "width": 800,
+              "height": 1052
+            },
+            {
+              "src": "assets/cars/optimized/cars_061_1200w.webp",
+              "width": 1200,
+              "height": 1578
+            },
+            {
+              "src": "assets/cars/optimized/cars_061_1600w.webp",
+              "width": 1600,
+              "height": 2104
+            }
+          ]
+        },
+        {
+          "id": "cars_062",
+          "original": "assets/cars/cars_062.jpg",
+          "alt": "Cars study, frame 062 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_062_800w.webp",
+              "width": 800,
+              "height": 925
+            },
+            {
+              "src": "assets/cars/optimized/cars_062_1200w.webp",
+              "width": 1200,
+              "height": 1388
+            },
+            {
+              "src": "assets/cars/optimized/cars_062_1600w.webp",
+              "width": 1600,
+              "height": 1851
+            }
+          ]
+        },
+        {
+          "id": "cars_063",
+          "original": "assets/cars/cars_063.jpg",
+          "alt": "Cars study, frame 063 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_063_800w.webp",
+              "width": 800,
+              "height": 912
+            },
+            {
+              "src": "assets/cars/optimized/cars_063_1200w.webp",
+              "width": 1200,
+              "height": 1368
+            },
+            {
+              "src": "assets/cars/optimized/cars_063_1600w.webp",
+              "width": 1600,
+              "height": 1824
+            }
+          ]
+        },
+        {
+          "id": "cars_064",
+          "original": "assets/cars/cars_064.jpg",
+          "alt": "Cars study, frame 064 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_064_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_064_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_064_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_065",
+          "original": "assets/cars/cars_065.jpg",
+          "alt": "Cars study, frame 065 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_065_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_065_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_065_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_066",
+          "original": "assets/cars/cars_066.jpg",
+          "alt": "Cars study, frame 066 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_066_800w.webp",
+              "width": 800,
+              "height": 540
+            },
+            {
+              "src": "assets/cars/optimized/cars_066_1200w.webp",
+              "width": 1200,
+              "height": 810
+            },
+            {
+              "src": "assets/cars/optimized/cars_066_1600w.webp",
+              "width": 1600,
+              "height": 1080
+            }
+          ]
+        },
+        {
+          "id": "cars_067",
+          "original": "assets/cars/cars_067.jpg",
+          "alt": "Cars study, frame 067 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_067_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_067_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_067_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_068",
+          "original": "assets/cars/cars_068.jpg",
+          "alt": "Cars study, frame 068 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_068_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_068_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_068_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "cars_069",
+          "original": "assets/cars/cars_069.jpg",
+          "alt": "Cars study, frame 069 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_069_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_069_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_069_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_070",
+          "original": "assets/cars/cars_070.jpg",
+          "alt": "Cars study, frame 070 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_070_800w.webp",
+              "width": 800,
+              "height": 1221
+            },
+            {
+              "src": "assets/cars/optimized/cars_070_1200w.webp",
+              "width": 1200,
+              "height": 1832
+            },
+            {
+              "src": "assets/cars/optimized/cars_070_1600w.webp",
+              "width": 1600,
+              "height": 2442
+            }
+          ]
+        },
+        {
+          "id": "cars_071",
+          "original": "assets/cars/cars_071.jpg",
+          "alt": "Cars study, frame 071 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_071_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_071_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_071_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_072",
+          "original": "assets/cars/cars_072.jpg",
+          "alt": "Cars study, frame 072 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_072_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_072_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_072_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_073",
+          "original": "assets/cars/cars_073.jpg",
+          "alt": "Cars study, frame 073 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_073_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_073_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_073_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_074",
+          "original": "assets/cars/cars_074.jpg",
+          "alt": "Cars study, frame 074 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_074_800w.webp",
+              "width": 800,
+              "height": 650
+            },
+            {
+              "src": "assets/cars/optimized/cars_074_1200w.webp",
+              "width": 1200,
+              "height": 975
+            },
+            {
+              "src": "assets/cars/optimized/cars_074_1600w.webp",
+              "width": 1600,
+              "height": 1300
+            }
+          ]
+        },
+        {
+          "id": "cars_075",
+          "original": "assets/cars/cars_075.jpg",
+          "alt": "Cars study, frame 075 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_075_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_075_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_075_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_076",
+          "original": "assets/cars/cars_076.jpg",
+          "alt": "Cars study, frame 076 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_076_800w.webp",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "src": "assets/cars/optimized/cars_076_1200w.webp",
+              "width": 1200,
+              "height": 900
+            },
+            {
+              "src": "assets/cars/optimized/cars_076_1600w.webp",
+              "width": 1600,
+              "height": 1200
+            }
+          ]
+        },
+        {
+          "id": "cars_077",
+          "original": "assets/cars/cars_077.jpg",
+          "alt": "Cars study, frame 077 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_077_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/cars/optimized/cars_077_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/cars/optimized/cars_077_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "cars_078",
+          "original": "assets/cars/cars_078.jpg",
+          "alt": "Cars study, frame 078 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_078_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/cars/optimized/cars_078_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/cars/optimized/cars_078_1600w.webp",
+              "width": 1600,
+              "height": 1067
+            }
+          ]
+        },
+        {
+          "id": "cars_079",
+          "original": "assets/cars/cars_079.jpg",
+          "alt": "Cars study, frame 079 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_079_800w.webp",
+              "width": 800,
+              "height": 1087
+            },
+            {
+              "src": "assets/cars/optimized/cars_079_1200w.webp",
+              "width": 1200,
+              "height": 1631
+            },
+            {
+              "src": "assets/cars/optimized/cars_079_1600w.webp",
+              "width": 1600,
+              "height": 2175
+            }
+          ]
+        },
+        {
+          "id": "cars_080",
+          "original": "assets/cars/cars_080.jpg",
+          "alt": "Cars study, frame 080 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_080_800w.webp",
+              "width": 800,
+              "height": 1084
+            },
+            {
+              "src": "assets/cars/optimized/cars_080_1200w.webp",
+              "width": 1200,
+              "height": 1626
+            },
+            {
+              "src": "assets/cars/optimized/cars_080_1600w.webp",
+              "width": 1600,
+              "height": 2168
+            }
+          ]
+        },
+        {
+          "id": "cars_081",
+          "original": "assets/cars/cars_081.jpg",
+          "alt": "Cars study, frame 081 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_081_800w.webp",
+              "width": 800,
+              "height": 1409
+            },
+            {
+              "src": "assets/cars/optimized/cars_081_1200w.webp",
+              "width": 1162,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "cars_082",
+          "original": "assets/cars/cars_082.jpg",
+          "alt": "Cars study, frame 082 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/cars/optimized/cars_082_800w.webp",
+              "width": 800,
+              "height": 1063
+            },
+            {
+              "src": "assets/cars/optimized/cars_082_1200w.webp",
+              "width": 1200,
+              "height": 1594
+            },
+            {
+              "src": "assets/cars/optimized/cars_082_1600w.webp",
+              "width": 1600,
+              "height": 2126
+            }
+          ]
+        }
+      ]
+    },
+    "portraits": {
+      "label": "Portraits",
+      "route": "portraits.html",
+      "images": [
+        {
+          "id": "portraits_001",
+          "original": "assets/Portraits/portraits_001.jpg",
+          "alt": "Woman in patterned clothing against a blue wall",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_001_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_001_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_002",
+          "original": "assets/Portraits/portraits_002.jpg",
+          "alt": "Woman in a floral dress on a beach at blue hour",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_002_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_002_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_002_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_003",
+          "original": "assets/Portraits/portraits_003.jpg",
+          "alt": "Portraits study, frame 003 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_003_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_003_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_003_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_004",
+          "original": "assets/Portraits/portraits_004.jpg",
+          "alt": "Portraits study, frame 004 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_004_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_004_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_004_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_005",
+          "original": "assets/Portraits/portraits_005.jpg",
+          "alt": "Portraits study, frame 005 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_005_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_005_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_005_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_006",
+          "original": "assets/Portraits/portraits_006.jpg",
+          "alt": "Portraits study, frame 006 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_006_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_006_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_006_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_007",
+          "original": "assets/Portraits/portraits_007.jpg",
+          "alt": "Portraits study, frame 007 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_007_800w.webp",
+              "width": 800,
+              "height": 1336
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_007_1200w.webp",
+              "width": 1200,
+              "height": 2005
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_007_1600w.webp",
+              "width": 1600,
+              "height": 2673
+            }
+          ]
+        },
+        {
+          "id": "portraits_008",
+          "original": "assets/Portraits/portraits_008.jpg",
+          "alt": "Portraits study, frame 008 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_008_800w.webp",
+              "width": 800,
+              "height": 530
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_008_1200w.webp",
+              "width": 1200,
+              "height": 795
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_008_1600w.webp",
+              "width": 1600,
+              "height": 1060
+            }
+          ]
+        },
+        {
+          "id": "portraits_009",
+          "original": "assets/Portraits/portraits_009.jpg",
+          "alt": "Portraits study, frame 009 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_009_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_009_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_009_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_010",
+          "original": "assets/Portraits/portraits_010.jpg",
+          "alt": "Portraits study, frame 010 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_010_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_010_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_010_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_011",
+          "original": "assets/Portraits/portraits_011.jpg",
+          "alt": "Portraits study, frame 011 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_011_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_011_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_011_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_012",
+          "original": "assets/Portraits/portraits_012.jpg",
+          "alt": "Portraits study, frame 012 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_012_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_012_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_012_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_013",
+          "original": "assets/Portraits/portraits_013.jpg",
+          "alt": "Portraits study, frame 013 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_013_800w.webp",
+              "width": 800,
+              "height": 1219
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_013_1200w.webp",
+              "width": 1200,
+              "height": 1828
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_013_1600w.webp",
+              "width": 1600,
+              "height": 2438
+            }
+          ]
+        },
+        {
+          "id": "portraits_014",
+          "original": "assets/Portraits/portraits_014.jpg",
+          "alt": "Portraits study, frame 014 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_014_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_014_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_014_1600w.webp",
+              "width": 1365,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "portraits_015",
+          "original": "assets/Portraits/portraits_015.jpg",
+          "alt": "Portraits study, frame 015 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_015_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_015_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_015_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_016",
+          "original": "assets/Portraits/portraits_016.jpg",
+          "alt": "Portraits study, frame 016 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_016_800w.webp",
+              "width": 800,
+              "height": 495
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_016_1200w.webp",
+              "width": 1200,
+              "height": 742
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_016_1600w.webp",
+              "width": 1600,
+              "height": 990
+            }
+          ]
+        },
+        {
+          "id": "portraits_017",
+          "original": "assets/Portraits/portraits_017.jpg",
+          "alt": "Portraits study, frame 017 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_017_800w.webp",
+              "width": 682,
+              "height": 1024
+            }
+          ]
+        },
+        {
+          "id": "portraits_018",
+          "original": "assets/Portraits/portraits_018.jpg",
+          "alt": "Portraits study, frame 018 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_018_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_018_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_018_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_019",
+          "original": "assets/Portraits/portraits_019.jpg",
+          "alt": "Portraits study, frame 019 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_019_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_019_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_019_1600w.webp",
+              "width": 1365,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "portraits_020",
+          "original": "assets/Portraits/portraits_020.jpg",
+          "alt": "Portraits study, frame 020 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_020_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_020_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_020_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_021",
+          "original": "assets/Portraits/portraits_021.jpg",
+          "alt": "Portraits study, frame 021 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_021_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_021_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_021_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_022",
+          "original": "assets/Portraits/portraits_022.jpg",
+          "alt": "Portraits study, frame 022 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_022_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_022_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_022_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_023",
+          "original": "assets/Portraits/portraits_023.jpg",
+          "alt": "Portraits study, frame 023 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_023_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_023_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_023_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_024",
+          "original": "assets/Portraits/portraits_024.jpg",
+          "alt": "Portraits study, frame 024 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_024_800w.webp",
+              "width": 800,
+              "height": 554
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_024_1200w.webp",
+              "width": 1200,
+              "height": 831
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_024_1600w.webp",
+              "width": 1600,
+              "height": 1108
+            }
+          ]
+        },
+        {
+          "id": "portraits_025",
+          "original": "assets/Portraits/portraits_025.jpg",
+          "alt": "Portraits study, frame 025 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_025_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_025_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_025_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_026",
+          "original": "assets/Portraits/portraits_026.jpg",
+          "alt": "Portraits study, frame 026 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_026_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_026_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_026_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_027",
+          "original": "assets/Portraits/portraits_027.jpg",
+          "alt": "Portraits study, frame 027 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_027_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_027_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_027_1600w.webp",
+              "width": 1365,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "portraits_028",
+          "original": "assets/Portraits/portraits_028.jpg",
+          "alt": "Portraits study, frame 028 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_028_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_028_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_028_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_029",
+          "original": "assets/Portraits/portraits_029.jpg",
+          "alt": "Portraits study, frame 029 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_029_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_029_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_029_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_030",
+          "original": "assets/Portraits/portraits_030.jpg",
+          "alt": "Portraits study, frame 030 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_030_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_030_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_030_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_031",
+          "original": "assets/Portraits/portraits_031.jpg",
+          "alt": "Portraits study, frame 031 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_031_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_031_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_031_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_032",
+          "original": "assets/Portraits/portraits_032.jpg",
+          "alt": "Portraits study, frame 032 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_032_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_032_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_032_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_033",
+          "original": "assets/Portraits/portraits_033.jpg",
+          "alt": "Portraits study, frame 033 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_033_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_033_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_033_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_034",
+          "original": "assets/Portraits/portraits_034.jpg",
+          "alt": "Portraits study, frame 034 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_034_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_034_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_034_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_035",
+          "original": "assets/Portraits/portraits_035.jpg",
+          "alt": "Portraits study, frame 035 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_035_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_035_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_035_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_036",
+          "original": "assets/Portraits/portraits_036.jpg",
+          "alt": "Portraits study, frame 036 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_036_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_036_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_037",
+          "original": "assets/Portraits/portraits_037.jpg",
+          "alt": "Portraits study, frame 037 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_037_800w.webp",
+              "width": 800,
+              "height": 1107
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_037_1200w.webp",
+              "width": 1200,
+              "height": 1660
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_037_1600w.webp",
+              "width": 1600,
+              "height": 2214
+            }
+          ]
+        },
+        {
+          "id": "portraits_038",
+          "original": "assets/Portraits/portraits_038.jpg",
+          "alt": "Portraits study, frame 038 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_038_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_038_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_038_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_039",
+          "original": "assets/Portraits/portraits_039.jpg",
+          "alt": "Portraits study, frame 039 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_039_800w.webp",
+              "width": 800,
+              "height": 553
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_039_1200w.webp",
+              "width": 1200,
+              "height": 830
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_039_1600w.webp",
+              "width": 1600,
+              "height": 1107
+            }
+          ]
+        },
+        {
+          "id": "portraits_040",
+          "original": "assets/Portraits/portraits_040.jpg",
+          "alt": "Portraits study, frame 040 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_040_800w.webp",
+              "width": 800,
+              "height": 1375
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_040_1200w.webp",
+              "width": 1200,
+              "height": 2063
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_040_1600w.webp",
+              "width": 1600,
+              "height": 2750
+            }
+          ]
+        },
+        {
+          "id": "portraits_041",
+          "original": "assets/Portraits/portraits_041.jpg",
+          "alt": "Portraits study, frame 041 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_041_800w.webp",
+              "width": 800,
+              "height": 495
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_041_1200w.webp",
+              "width": 1200,
+              "height": 742
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_041_1600w.webp",
+              "width": 1600,
+              "height": 990
+            }
+          ]
+        },
+        {
+          "id": "portraits_042",
+          "original": "assets/Portraits/portraits_042.jpg",
+          "alt": "Portraits study, frame 042 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_042_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_042_1200w.webp",
+              "width": 960,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_043",
+          "original": "assets/Portraits/portraits_043.jpg",
+          "alt": "Portraits study, frame 043 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_043_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_043_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_043_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_044",
+          "original": "assets/Portraits/portraits_044.jpg",
+          "alt": "Portraits study, frame 044 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_044_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_044_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_045",
+          "original": "assets/Portraits/portraits_045.jpg",
+          "alt": "Portraits study, frame 045 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_045_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_045_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_045_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_046",
+          "original": "assets/Portraits/portraits_046.jpg",
+          "alt": "Portraits study, frame 046 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_046_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_046_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_047",
+          "original": "assets/Portraits/portraits_047.jpg",
+          "alt": "Portraits study, frame 047 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_047_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_047_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_047_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_048",
+          "original": "assets/Portraits/portraits_048.jpg",
+          "alt": "Portraits study, frame 048 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_048_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_048_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_049",
+          "original": "assets/Portraits/portraits_049.jpg",
+          "alt": "Portraits study, frame 049 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_049_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_049_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_049_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_050",
+          "original": "assets/Portraits/portraits_050.jpg",
+          "alt": "Portraits study, frame 050 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_050_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_050_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_050_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_051",
+          "original": "assets/Portraits/portraits_051.jpg",
+          "alt": "Portraits study, frame 051 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_051_800w.webp",
+              "width": 800,
+              "height": 1199
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_051_1200w.webp",
+              "width": 1200,
+              "height": 1799
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_051_1600w.webp",
+              "width": 1600,
+              "height": 2399
+            }
+          ]
+        },
+        {
+          "id": "portraits_052",
+          "original": "assets/Portraits/portraits_052.jpg",
+          "alt": "Portraits study, frame 052 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_052_800w.webp",
+              "width": 800,
+              "height": 1066
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_052_1200w.webp",
+              "width": 1080,
+              "height": 1440
+            }
+          ]
+        },
+        {
+          "id": "portraits_053",
+          "original": "assets/Portraits/portraits_053.jpg",
+          "alt": "Portraits study, frame 053 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_053_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_053_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_053_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_054",
+          "original": "assets/Portraits/portraits_054.jpg",
+          "alt": "Portraits study, frame 054 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_054_800w.webp",
+              "width": 800,
+              "height": 533
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_054_1200w.webp",
+              "width": 1200,
+              "height": 800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_054_1600w.webp",
+              "width": 1600,
+              "height": 1066
+            }
+          ]
+        },
+        {
+          "id": "portraits_055",
+          "original": "assets/Portraits/portraits_055.jpg",
+          "alt": "Portraits study, frame 055 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_055_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_055_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_055_1600w.webp",
+              "width": 1365,
+              "height": 2048
+            }
+          ]
+        },
+        {
+          "id": "portraits_056",
+          "original": "assets/Portraits/portraits_056.jpg",
+          "alt": "Portraits study, frame 056 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_056_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_056_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_056_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_057",
+          "original": "assets/Portraits/portraits_057.jpg",
+          "alt": "Portraits study, frame 057 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_057_800w.webp",
+              "width": 800,
+              "height": 1073
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_057_1200w.webp",
+              "width": 1200,
+              "height": 1609
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_057_1600w.webp",
+              "width": 1600,
+              "height": 2146
+            }
+          ]
+        },
+        {
+          "id": "portraits_058",
+          "original": "assets/Portraits/portraits_058.jpg",
+          "alt": "Portraits study, frame 058 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_058_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_058_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_058_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        },
+        {
+          "id": "portraits_059",
+          "original": "assets/Portraits/portraits_059.jpg",
+          "alt": "Portraits study, frame 059 by Lakshyajit",
+          "variants": [
+            {
+              "src": "assets/Portraits/optimized/portraits_059_800w.webp",
+              "width": 800,
+              "height": 1200
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_059_1200w.webp",
+              "width": 1200,
+              "height": 1800
+            },
+            {
+              "src": "assets/Portraits/optimized/portraits_059_1600w.webp",
+              "width": 1600,
+              "height": 2400
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "about": {
+    "id": "about",
+    "alt": "Portrait of Lakshyajit",
+    "variants": [
+      {
+        "src": "assets/about_portrait_800w.webp",
+        "width": 800,
+        "height": 533
+      },
+      {
+        "src": "assets/about_portrait_1200w.webp",
+        "width": 1200,
+        "height": 799
+      }
+    ]
+  }
+}

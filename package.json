@@ -1,0 +1,14 @@
+{
+  "name": "lxy-visuals",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "generate": "node scripts/build.mjs --source-only",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/verify.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/serve.mjs"
+  }
+}
