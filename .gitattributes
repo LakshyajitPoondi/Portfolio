@@ -1,0 +1,19 @@
+# Line endings are normalized so the generated pages match scripts/templates.mjs
+# byte for byte on every platform. scripts/verify.mjs compares them exactly, and
+# core.autocrlf on Windows would otherwise check them out with CRLF and fail.
+* text=auto eol=lf
+
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+
+# Photographs and other binaries are never touched by normalization.
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.webp  binary
+*.mp4   binary
