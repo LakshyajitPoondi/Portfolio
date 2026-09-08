@@ -60,7 +60,8 @@ function contactCTA() {
 }
 
 export function home() {
-  const cards = [['portraits','portraits_002','Portraits'],['animals','animals_020','Wildlife'],['cars','cars_005','Cars'],['gallery','gallery_010','Gallery']].map(([key,id,title],i) => `<a class="work-card" href="${collections[key].route}"><div class="card-image">${picture(getImage(key,id),{sizes:'(max-width: 540px) 90vw, 45vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="card-caption"><h3>${title}</h3><span class="meta">${displayImages(key).length} frames</span><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('\n');
+  // Gallery is a way in to the other collections, so its card counts collections, not frames.
+  const cards = [['portraits','portraits_036','Portraits'],['animals','animals_020','Wildlife'],['cars','cars_005','Cars'],['gallery','gallery_010','Gallery',`${galleryEntries.length} collections`]].map(([key,id,title,label],i) => `<a class="work-card" href="${collections[key].route}"><div class="card-image">${picture(getImage(key,id),{sizes:'(max-width: 540px) 90vw, 45vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="card-caption"><h3>${title}</h3><span class="meta">${label ?? `${displayImages(key).length} frames`}</span><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('\n');
   return shell({title:'Lakshyajit Photography',description:'Portraits, wildlife and automotive photography by Lakshyajit. An independent visual journal from Chennai, India.',route:'index.html',viewer:true,body:`
   <section class="hero container" aria-labelledby="hero-title">
     <div class="hero-topline"><p class="eyebrow">An independent point of view</p><p class="meta">Chennai, India</p></div>
@@ -69,8 +70,8 @@ export function home() {
     <div class="hero-bottom"><h2>PHOTOGRAPHY</h2><a class="text-link" href="#selected-work">Explore selected work <span aria-hidden="true">↓</span></a></div>
   </section>
   <div class="identity-strip meta"><span>People. Places. Passing moments.</span><span>Visuals by Lakshyajit</span><span>Look a little closer.</span></div>
-  <section class="container section" id="selected-work"><div class="section-heading"><div><p class="eyebrow">01 / The collections</p><h2>SELECTED<br>WORK.</h2></div><p>Different subjects. The same curiosity.<br>A selection from behind the lens.</p></div><div class="work-grid">${cards}</div></section>
-  <section class="container section featured"><div class="section-heading"><div><p class="eyebrow">02 / A closer look</p><h2>IN BETWEEN.</h2></div><a class="text-link" href="gallery.html">Photography Gallery ${arrow}</a></div><div class="featured-grid" data-gallery>${photo(getImage('animals','animals_007'),'Wildlife',6,false,'(max-width: 540px) 90vw, 38vw')}${photo(getImage('portraits','portraits_001'),'Portraits',0,false,'(max-width: 540px) 42vw, 25vw')}${photo(getImage('gallery','gallery_001'),'Gallery',0,false,'(max-width: 540px) 42vw, 30vw')}</div></section>
+  <section class="container section" id="selected-work"><div class="section-heading"><div><p class="eyebrow">01 / The collections</p><h2 class="reveal">SELECTED<br>WORK.</h2></div><p>Different subjects. The same curiosity.<br>A selection from behind the lens.</p></div><div class="work-grid">${cards}</div></section>
+  <section class="container section featured"><div class="section-heading"><div><p class="eyebrow">02 / A closer look</p><h2 class="reveal">IN BETWEEN.</h2></div><a class="text-link" href="gallery.html">Photography Gallery ${arrow}</a></div><div class="featured-grid" data-gallery>${photo(getImage('animals','animals_007'),'Wildlife',6,false,'(max-width: 540px) 90vw, 38vw')}${photo(getImage('portraits','portraits_001'),'Portraits',0,false,'(max-width: 540px) 42vw, 25vw')}${photo(getImage('gallery','gallery_001'),'Gallery',0,false,'(max-width: 540px) 42vw, 30vw')}</div></section>
   <section class="about container section" id="about"><figure class="about-image">${picture(catalog.about,{sizes:'(max-width: 540px) 70vw, 38vw'})}<figcaption class="meta">Lakshyajit / Behind the lens</figcaption></figure><div class="about-copy"><p class="eyebrow">03 / The photographer</p><h2>A CAMERA.<br>A REASON<br>TO LOOK.</h2><p>My dad introduced me to a camera in 2017. I started with our birds at home. In 2021, seeing Sudhir Shivaram’s wildlife photographs brought me back to it — this time with a Canon 50D and a lot of curiosity.</p><p>Since then, it’s been friends in front of the lens, cars after dark, and whatever catches my eye along the way. My approach keeps changing. The urge to make photographs stays.</p><p>This is my ongoing collection. I’m glad you’re here.</p><div class="signature">Lakshyajit / LXY Visuals</div><a class="text-link" href="${instagram}" target="_blank" rel="noopener noreferrer">Follow the work ${arrow}</a></div></section>
   ${contactCTA()}`});
 }
@@ -92,14 +93,28 @@ export function collectionPage(key) {
   const firstIndex = items.findIndex(item => item.id === opening);
   items.unshift(...items.splice(firstIndex,1));
   return shell({title:c.label,description:collectionCopy[key][1],route:c.route,className:`collection-${key}`,viewer:true,body:`
-  <section class="page-intro container"><p class="eyebrow">${collectionCopy[key][0]}</p><h1>${key === 'gallery' ? 'PHOTOGRAPHY<br>GALLERY.' : c.label + '.'}</h1><div class="intro-bottom"><p>${collectionCopy[key][1]}</p><nav class="collection-nav" aria-label="Collections">${links(c.route,[['gallery.html','Gallery'],['portraits.html','Portraits'],['animals.html','Wildlife'],['cars.html','Cars']])}</nav></div></section>
+  <section class="page-intro container"><p class="eyebrow">${collectionCopy[key][0]}</p><h1 class="reveal">${c.label}.</h1><div class="intro-bottom"><p>${collectionCopy[key][1]}</p><nav class="collection-nav" aria-label="Collections">${links(c.route,[['gallery.html','Gallery'],['portraits.html','Portraits'],['animals.html','Wildlife'],['cars.html','Cars']])}</nav></div></section>
   <div class="container"><div class="gallery-header meta"><span>${items.length} photographs / ${c.label}</span><span>Open a frame to explore ↗</span></div><div class="gallery-grid" data-gallery>${items.map((item,i) => photo(item,c.label,Number(item.id.split('_')[1])-1,i === 0,'(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw')).join('\n')}</div></div>
   <section class="next-collection container"><p class="eyebrow">Next collection</p><a href="${next.route}">${next.label} ${arrow}</a></section>`});
 }
 
+// The Photography Gallery route is a way in to the other collections rather than a
+// frame listing. Every Gallery photograph stays on disk and in the catalog.
+const galleryEntries = [['Portraits','portraits.html','portraits','portraits_002'],['Wildlife','animals.html','animals','animals_007'],['Cars','cars.html','cars','cars_005']];
+
+export function galleryIndexPage() {
+  const c = collections.gallery;
+  const frames = galleryEntries.reduce((total,[,,key]) => total + displayImages(key).length, 0);
+  const cards = galleryEntries.map(([label,route,key,id],i) => `<a class="entry-card" href="${route}"><div class="entry-image">${picture(getImage(key,id),{priority:i === 0,sizes:'(max-width: 540px) 90vw, 30vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="entry-caption"><h2>${label}</h2><span class="meta">${displayImages(key).length} frames</span><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('\n');
+  return shell({title:c.label,description:'Three collections by Lakshyajit: portraits, wildlife and automotive photography from Chennai, India.',route:c.route,className:'collection-gallery',body:`
+  <section class="page-intro container"><p class="eyebrow">Choose a way in</p><h1 class="reveal">PHOTOGRAPHY<br>GALLERY.</h1><div class="intro-bottom"><p>Three collections, one way of looking. Start wherever the picture takes you.</p><nav class="collection-nav" aria-label="Collections">${links(c.route,[['gallery.html','Gallery'],['portraits.html','Portraits'],['animals.html','Wildlife'],['cars.html','Cars']])}</nav></div></section>
+  <div class="container"><div class="gallery-header meta"><span>${galleryEntries.length} collections / ${frames} photographs</span><span>Open a collection ↗</span></div><div class="entry-grid">${cards}</div></div>
+  <section class="next-collection container"><p class="eyebrow">Or start at the beginning</p><a href="index.html">Home ${arrow}</a></section>`});
+}
+
 export function contactPage() {
   return shell({title:'Contact',description:'Talk to Lakshyajit about portraits, automotive photography, collaborations and selected shoots in Chennai.',route:'contact.html',body:`
-  <section class="page-intro container"><p class="eyebrow">A conversation starts here</p><h1>LET’S MAKE<br>SOMETHING.</h1></section>
+  <section class="page-intro container"><p class="eyebrow">A conversation starts here</p><h1 class="reveal">LET’S MAKE<br>SOMETHING.</h1></section>
   <div class="contact-layout container"><aside class="contact-aside"><p>For a shoot, a collaboration, or a question about a photograph. Tell me what you have in mind.</p><a class="text-link" href="${instagram}" target="_blank" rel="noopener noreferrer">Instagram / @lxy_visuals ${arrow}</a><p class="contact-note">Based in Chennai, India.<br>Portraits · Wildlife · Cars</p></aside>
   <form class="contact-form" id="contact-form" action="/api/contact" method="post" aria-describedby="form-privacy">
     <div class="form-row"><div class="field"><label for="name">Name *</label><input id="name" name="name" autocomplete="name" placeholder="Your name" required maxlength="100"></div><div class="field"><label for="email">Email *</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254"></div></div>
@@ -113,5 +128,5 @@ export function contactPage() {
 }
 
 export function allPages() {
-  return {'index.html':home(), ...Object.fromEntries(Object.keys(collections).map(key => [collections[key].route,collectionPage(key)])), 'contact.html':contactPage()};
+  return {'index.html':home(), ...Object.fromEntries(Object.keys(collections).map(key => [collections[key].route,key === 'gallery' ? galleryIndexPage() : collectionPage(key)])), 'contact.html':contactPage()};
 }

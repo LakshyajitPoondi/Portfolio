@@ -72,8 +72,20 @@ for (const [name,expected] of Object.entries(expectedPages)) {
   }
   for (const route of ['gallery.html','animals.html','cars.html','portraits.html','contact.html','index.html#about']) assert.ok(html.includes(`href="${route}"`),`${name}: category lost ${route}`);
 }
+// gallery.html is a category-entry page: it navigates into the other collections instead
+// of listing its own frames. Its photographs stay on disk and in the catalog, so the
+// frame-listing contract is asserted for the collections that still list frames, and the
+// entry contract is asserted for Gallery.
+const entryRoutes = ['portraits.html','animals.html','cars.html'];
 for (const [key,collection] of Object.entries(catalog.collections)) {
   const html=expectedPages[collection.route];
+  if (key === 'gallery') {
+    assert.equal((html.match(/data-lightbox /g)||[]).length,0,'gallery.html must not list frames');
+    assert.equal((html.match(/class="entry-card"/g)||[]).length,entryRoutes.length,'gallery.html entry card count');
+    for(const route of entryRoutes) assert.ok(html.includes(`class="entry-card" href="${route}"`),`gallery.html missing entry to ${route}`);
+    assert.equal(collection.images.length,84,'Gallery photographs must remain catalogued');
+    continue;
+  }
   assert.equal((html.match(/data-lightbox /g)||[]).length,displayImages(key).length);
   for(const image of collection.images) assert.equal(html.split(`data-id="${image.id}"`).length-1,presentation.hiddenImageIds.includes(image.id)?0:1,`Incorrect display inclusion for ${image.id}`);
 }
@@ -83,5 +95,6 @@ for (const script of scripts) {
   const result=spawnSync(process.execPath,['--check',script],{encoding:'utf8'});
   assert.equal(result.status,0,`${script}: ${result.stderr}`);
 }
-console.log(`PASS: measured dimensions for ${optimized.size} display variants; 276 photos retained on disk, 275 displayed, 1 explicitly hidden.`);
+const listed = ['portraits','animals','cars'].reduce((total,key) => total + displayImages(key).length, 0);
+console.log(`PASS: measured dimensions for ${optimized.size} display variants; 276 photos retained on disk and catalogued, ${listed} listed on collection pages, 84 Gallery frames retained behind the category-entry page, 1 explicitly hidden.`);
 console.log(`PASS: 6 pages, local links, fragments, landmarks, image attributes, and ${scripts.length} JavaScript syntax checks.`);

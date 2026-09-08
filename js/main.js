@@ -38,6 +38,22 @@ function updateClock() {
 updateClock();
 setInterval(updateClock, 60000);
 
+// Left-to-right clip-path wipe on major headings. The hidden state is scoped to .js
+// so headings stay visible without JavaScript, and the wipe is skipped outright when
+// the visitor asks for reduced motion.
+const reveals = document.querySelectorAll('.reveal');
+if (reveals.length) {
+  const show = element => element.classList.add('is-revealed');
+  if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    reveals.forEach(show);
+  } else {
+    const observer = new IntersectionObserver((entries, self) => {
+      for (const entry of entries) if (entry.isIntersecting) { show(entry.target); self.unobserve(entry.target); }
+    }, {threshold:0.2, rootMargin:'0px 0px -8% 0px'});
+    reveals.forEach(element => observer.observe(element));
+  }
+}
+
 document.querySelectorAll('.photo-link img').forEach(img => {
   const failed = () => img.closest('.photo-link').classList.add('image-error');
   img.addEventListener('error', failed);
