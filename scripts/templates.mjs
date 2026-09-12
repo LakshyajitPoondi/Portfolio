@@ -5,7 +5,8 @@ export const collections = catalog.collections;
 export const presentation = JSON.parse(readFileSync(new URL('../data/presentation.json', import.meta.url), 'utf8'));
 export const displayImages = key => collections[key].images.filter(image => !presentation.hiddenImageIds.includes(image.id));
 export const escape = (value) => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const arrow = '<span aria-hidden="true">↗</span>';
+const arrowSvg = '<svg class="arrow-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 11.5 11.5 4.5M11.5 4.5H5.5M11.5 4.5v6"/></svg>';
+const arrow = `<span aria-hidden="true">${arrowSvg}</span>`;
 const instagram = 'https://www.instagram.com/lxy_visuals/';
 const nav = [['index.html','Home'],['gallery.html','Photography Gallery'],['animals.html','Wildlife'],['cars.html','Cars'],['portraits.html','Portraits'],['index.html#about','About'],['contact.html','Contact']];
 // Secondary collection navigation follows the main navigation's order everywhere.
@@ -50,7 +51,7 @@ function photo(item, label, index, priority = false, sizes) {
 }
 
 function footer() {
-  return `<footer class="site-footer container"><div class="footer-top"><div>${brand}<p>Independent photography.<br>Chennai, India.</p></div><nav class="footer-nav" aria-label="Footer">${links('')}<a href="${instagram}" target="_blank" rel="noopener noreferrer">Instagram ↗</a></nav></div><div class="footer-wordmark" aria-hidden="true">LXY VISUALS</div><div class="footer-bottom"><span>© <span data-year>2026</span> Lakshyajit Photography</span><span>Chennai, India <time id="chennai-time"></time></span><a href="#top">Back to top ↑</a></div></footer>`;
+  return `<footer class="site-footer container"><div class="footer-top"><div>${brand}<p>Independent photography.<br>Chennai, India.</p></div><nav class="footer-nav" aria-label="Footer">${links('')}<a href="${instagram}" target="_blank" rel="noopener noreferrer">Instagram ${arrowSvg}</a></nav></div><div class="footer-wordmark" aria-hidden="true">LXY VISUALS</div><div class="footer-bottom"><span>© <span data-year>2026</span> Lakshyajit Photography</span><span>Chennai, India <time id="chennai-time"></time></span><a href="#top">Back to top ↑</a></div></footer>`;
 }
 
 function lightbox() {
@@ -88,7 +89,7 @@ function contactCTA() {
 export function home() {
   // Gallery is a way in to the other collections, so its card counts collections, not frames.
   const entries = [['portraits','portraits_036','Portraits'],['animals','animals_020','Wildlife'],['cars','cars_005','Cars'],['gallery','gallery_010','Gallery',`${galleryEntries.length} collections`]];
-  const card = ([key,id,title,label],i) => `<a class="work-card" href="${collections[key].route}"><div class="card-image">${picture(getImage(key,id),{sizes:'(max-width: 540px) 90vw, 45vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="card-caption"><h3>${title}</h3><span class="meta">${label ?? `${displayImages(key).length} frames`}</span><span class="card-arrow" aria-hidden="true">↗</span></div></a>`;
+  const card = ([key,id,title,label],i) => `<a class="work-card" href="${collections[key].route}"><div class="card-image">${picture(getImage(key,id),{sizes:'(max-width: 540px) 90vw, 45vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="card-caption"><h3>${title}</h3><span class="meta">${label ?? `${displayImages(key).length} frames`}</span><span class="card-arrow" aria-hidden="true">${arrowSvg}</span></div></a>`;
   // Two independent column stacks: each column flows on its own so a short card cannot
   // leave a tall empty row beneath it. The left/right split matches the previous layout.
   const cards = [[0,2],[1,3]].map(column => `<div class="work-column">${column.map(index => card(entries[index],index)).join('\n')}</div>`).join('\n');
@@ -96,7 +97,7 @@ export function home() {
   <section class="hero container" aria-labelledby="hero-title">
     <div class="hero-topline"><p class="eyebrow">An independent point of view</p><p class="meta">Chennai, India</p></div>
     <h1 class="hero-name" id="hero-title">LAKSHYAJIT</h1>
-    <div class="hero-stage">${picture(getImage('cars','cars_001'),{priority:true,sizes:'92vw'})}<a href="cars.html" class="hero-label"><span class="meta">From the automotive collection</span><span class="meta">After dark. In the details. ↗</span></a></div>
+    <div class="hero-stage">${picture(getImage('cars','cars_001'),{priority:true,sizes:'92vw'})}<a href="cars.html" class="hero-label"><span class="meta">From the automotive collection</span><span class="meta">After dark. In the details. ${arrowSvg}</span></a></div>
     <div class="hero-bottom"><h2>PHOTOGRAPHY</h2><a class="text-link" href="#selected-work">Explore selected work <span aria-hidden="true">↓</span></a></div>
   </section>
   <div class="identity-strip meta"><span>People. Places. Passing moments.</span><span>Visuals by Lakshyajit</span><span>Look a little closer.</span></div>
@@ -124,7 +125,7 @@ export function collectionPage(key) {
   items.unshift(...items.splice(firstIndex,1));
   return shell({title:c.label,description:collectionCopy[key][1],route:c.route,className:`collection-${key}`,viewer:true,body:`
   <section class="page-intro container"><p class="eyebrow">${collectionCopy[key][0]}</p>${heading('h1',c.label + '.')}<div class="intro-bottom"><p>${collectionCopy[key][1]}</p><nav class="collection-nav" aria-label="Collections">${links(c.route,collectionNav)}</nav></div></section>
-  <div class="container"><div class="gallery-header meta"><span>${items.length} photographs / ${c.label}</span><span>Open a frame to explore ↗</span></div><div class="gallery-grid" data-gallery>${items.map((item,i) => photo(item,c.label,Number(item.id.split('_')[1])-1,i === 0,'(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw')).join('\n')}</div></div>
+  <div class="container"><div class="gallery-header meta"><span>${items.length} photographs / ${c.label}</span><span>Open a frame to explore ${arrowSvg}</span></div><div class="gallery-grid" data-gallery>${items.map((item,i) => photo(item,c.label,Number(item.id.split('_')[1])-1,i === 0,'(max-width: 540px) 90vw, (max-width: 800px) 44vw, 30vw')).join('\n')}</div></div>
   <section class="next-collection container"><p class="eyebrow">Next collection</p><a href="${next.route}">${next.label} ${arrow}</a></section>`});
 }
 
@@ -135,10 +136,10 @@ const galleryEntries = [['Portraits','portraits.html','portraits','portraits_002
 export function galleryIndexPage() {
   const c = collections.gallery;
   const frames = galleryEntries.reduce((total,[,,key]) => total + displayImages(key).length, 0);
-  const cards = galleryEntries.map(([label,route,key,id],i) => `<a class="entry-card" href="${route}"><div class="entry-image">${picture(getImage(key,id),{priority:i === 0,sizes:'(max-width: 540px) 90vw, 30vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="entry-caption"><h2>${label}</h2><span class="meta">${displayImages(key).length} frames</span><span class="card-arrow" aria-hidden="true">↗</span></div></a>`).join('\n');
+  const cards = galleryEntries.map(([label,route,key,id],i) => `<a class="entry-card" href="${route}"><div class="entry-image">${picture(getImage(key,id),{priority:i === 0,sizes:'(max-width: 540px) 90vw, 30vw'})}<span class="card-number">0${i+1} / COLLECTION</span></div><div class="entry-caption"><h2>${label}</h2><span class="meta">${displayImages(key).length} frames</span><span class="card-arrow" aria-hidden="true">${arrowSvg}</span></div></a>`).join('\n');
   return shell({title:c.label,description:'Three collections by Lakshyajit: portraits, wildlife and automotive photography from Chennai, India.',route:c.route,className:'collection-gallery',body:`
   <section class="page-intro container"><p class="eyebrow">Choose a way in</p>${heading('h1','PHOTOGRAPHY<br>GALLERY.')}<div class="intro-bottom"><p>Three collections, one way of looking. Start wherever the picture takes you.</p><nav class="collection-nav" aria-label="Collections">${links(c.route,collectionNav)}</nav></div></section>
-  <div class="container"><div class="gallery-header meta"><span>${galleryEntries.length} collections / ${frames} photographs</span><span>Open a collection ↗</span></div><div class="entry-grid">${cards}</div></div>
+  <div class="container"><div class="gallery-header meta"><span>${galleryEntries.length} collections / ${frames} photographs</span><span>Open a collection ${arrowSvg}</span></div><div class="entry-grid">${cards}</div></div>
   <section class="next-collection container"><p class="eyebrow">Or start at the beginning</p><a href="index.html">Home ${arrow}</a></section>`});
 }
 

@@ -5,3 +5,6 @@ node_modules/
 .env.*.local
 artifacts/
 __pycache__/
+
+.vercel
+.env*
